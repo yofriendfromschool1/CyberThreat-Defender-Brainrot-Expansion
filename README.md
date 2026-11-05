@@ -18,6 +18,7 @@ Kirkity, and more).
 # 2. From the project root:
 godot --headless res://tests/TestRunner.tscn   # run tests
 godot res://scenes/Main.tscn                    # launch the game
+```
 Expected test output ends with --- 57 passed, 0 failed --- and exits 0.
 
 Playing
