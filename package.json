@@ -1,0 +1,85 @@
+{
+  "name": "cyberthreat-defender-lan",
+  "productName": "CyberThreat Defender: LAN FFA & Teams",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A host-authoritative LAN card game with FFA, teams, co-op, draft, sealed and custom rules.",
+  "main": "dist/desktop/main.cjs",
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "dev:client": "vite --host 0.0.0.0",
+    "dev:server": "tsx watch src/server/index.ts",
+    "host": "tsx src/server/index.ts",
+    "build": "npm run typecheck && npm run build:client && npm run build:server && npm run build:desktop",
+    "build:client": "vite build",
+    "build:server": "esbuild src/server/index.ts --bundle --platform=node --format=esm --outfile=dist/server/index.js --packages=external",
+    "build:desktop": "esbuild src/desktop/main.ts --bundle --platform=node --format=cjs --outfile=dist/desktop/main.cjs --packages=external",
+    "start": "node dist/server/index.js",
+    "desktop": "npm run build && electron dist/desktop/main.cjs",
+    "package:desktop": "npm run build && electron-builder",
+    "art": "tsx scripts/generate-art.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:lan": "tsx scripts/lan-smoke.ts",
+    "smoke": "npm run test:lan",
+    "start:host": "node dist/server/index.js",
+    "test:unit": "vitest run",
+    "art:check": "tsx scripts/check-art.ts",
+    "clean": "rm -rf dist release"
+  },
+  "build": {
+    "appId": "network.cyberthreatdefender.lan",
+    "productName": "CyberThreat Defender LAN",
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.games"
+    }
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/space-grotesk": "^5.3.0",
+    "bonjour-service": "^1.4.4",
+    "express": "^5.3.0",
+    "lucide-react": "^1.69.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/ws": "^8.18.2",
+    "@vitejs/plugin-react": "^6.2.1",
+    "electron": "^45.2.3",
+    "electron-builder": "^26.18.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  }
+}

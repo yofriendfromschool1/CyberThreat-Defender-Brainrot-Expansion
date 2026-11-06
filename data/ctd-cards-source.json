@@ -1,0 +1,1453 @@
+[
+  {
+    "slug": "advanced-persistent-dos",
+    "name": "Advanced Persistent DoS",
+    "types": [
+      "Attack",
+      "Denial"
+    ],
+    "description": "These attacks use a variety of methods to attack a target and disrupt their activities. This can last for weeks and is capable of creating diversions to elude security defenses.",
+    "effect": "Your opponent loses two (2) points per round while this card is in play."
+  },
+  {
+    "slug": "advanced-persistent-threat",
+    "name": "Advanced Persistent Threat",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "Your opponent\u2019s network has been infiltrated by a malicious person. They had access for a long time but remained undetected until they could achieve their goal. Your opponent\u2019s valuable data is stolen often.",
+    "effect": "Select an opponent that is currently affected by a Trojan Horse card. That opponent loses 4 points this round. **Remove** this card from play **after 1 round.**"
+  },
+  {
+    "slug": "advanced-threat-monitoring",
+    "name": "Advanced Threat Monitoring",
+    "types": [
+      "Defense",
+      "Service"
+    ],
+    "description": "Sensors installed on your network allow cyber analysts the visibility they need to assess network anomalies, track trends and detect threats before they do harm.",
+    "effect": "When an opponent plays an Attack card that targets you, you may select one card at random to view in that opponent\u2019s hand. If the selected card is an Attack card, discard it and this card."
+  },
+  {
+    "slug": "all-in-one-computer",
+    "name": "All-in-One Computer",
+    "types": [
+      "Asset",
+      "System"
+    ],
+    "description": "An all-in-one computer is the combination of a monitor and the computer. The system comes as one whole unit with a mouse and keyboard.",
+    "effect": "You gain 1 point each round."
+  },
+  {
+    "slug": "alureon-trojan",
+    "name": "Alureon Trojan",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "The Alureon family of trojan horses can send malicious data to your network and corrupt driver files making them unusable. They may also give hackers access to collect information from your network.",
+    "effect": "Select a System or Server that an opponent has in play. They will gain no points from the selected Asset and will lose 1 point at the end of each round until this Trojan Horse is countered."
+  },
+  {
+    "slug": "anti-malware-not-updated",
+    "name": "Anti-Malware Not Updated",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent did not update their virus and malware signature database. This means they are vulnerable to recent virus and malware attacks.",
+    "effect": "Select one (1) Anti-Malware/Virus card that your opponent has in play. Both this card and the target card are discarded."
+  },
+  {
+    "slug": "anti-malware-virus",
+    "name": "Anti-Malware/Virus",
+    "types": [
+      "Defense",
+      "Software"
+    ],
+    "description": "You install or update anti-malware and anti-virus software on your computer systems. This prevents known viruses and other malicious software (malware), but needs to be updated periodically.",
+    "effect": "This card removes all Attack \u2013 Malware cards targeting you and remains in play. While this card is in play, you cannot be the target of Attack \u2013 Malware cards. You may only have one of this card in play."
+  },
+  {
+    "slug": "application-rootkit",
+    "name": "Application Rootkit",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Rootkits are often used to conceal their presence or the presence of other malware. Application rootkits operate at the level of standard programs making them easier to detect than other types of rootkits.",
+    "effect": "This card is immune to **Defense \u2013 Software** cards. When your Malware is removed from play by an opponent\u2019s Defense card, you may discard this rootkit and place one Malware back in your hand."
+  },
+  {
+    "slug": "attend-security-conference",
+    "name": "Attend Security Conference",
+    "types": [
+      "Event"
+    ],
+    "description": "You attend one of the largest cybersecurity conferences in the world. While there, you meet insightful security professionals, learn about some of the latest technologies, and gather some useful free resources.",
+    "effect": "Draw three cards and then discard this card."
+  },
+  {
+    "slug": "backup-failure",
+    "name": "Backup Failure",
+    "types": [
+      "Event"
+    ],
+    "description": "One of your opponent\u2019s data backup processes has not been closely monitored and it has been making corrupted copies for quite some time. All of the data copied from that machine is unusable.",
+    "effect": "Select a **Data Backup** card that an opponent has in play. When played, both this card and the target card are discarded."
+  },
+  {
+    "slug": "backup-power-generator",
+    "name": "Backup Power Generator",
+    "types": [
+      "Defense"
+    ],
+    "description": "You recently acquired a backup generator to keep your systems functioning in case of an electrical failure. Once this detects a loss of electricity, the generator immediately begins providing power until the electrical failure is fixed.",
+    "effect": "You **may prevent one (1) Power Outage** from affecting you. If you choose to do so, put this card at the bottom of your draw pile. You may only have one of this card in play."
+  },
+  {
+    "slug": "binary-search",
+    "name": "Binary Search",
+    "types": [
+      "Event"
+    ],
+    "description": "A binary search is an algorithm designed to quickly search a sorted data structure by recursively splitting sets of data in half and comparing their values.",
+    "effect": "Cut your deck into two piles. Draw one card from the top of each pile, then shuffle your deck. If the values of the two cards match, put both into your hand. Otherwise, put the card with the higher value in your hand, and the card with the lower value at the bottom of your deck."
+  },
+  {
+    "slug": "blue-team",
+    "name": "Blue Team",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "**Blue team**s are defensive security professionals responsible for maintaining internal network defenses against all cyber attacks and threats.",
+    "effect": "Attach all Asset \u2013 Personnel you have in play to this card. Once per turn, you may **discard** one attached card, to **draw a new card**. if you play a **Red Team** or **Purple Team** card while this is in play, return 1 **Defense** card from your discard pile back into your deck and shuffle it. Discard this card when no more cards are attached to it."
+  },
+  {
+    "slug": "bluesnarfing",
+    "name": "Bluesnarfing",
+    "types": [
+      "Attack",
+      "Mobile"
+    ],
+    "description": "Bluesnarfing is the unauthorized access of information from a wireless device through a Bluetooth connection, often between phones, desktops, and laptops.",
+    "effect": "Your opponent loses 1 point for each different Asset \u2013 Wireless, Mobile, and Systems cards they have in play. Discard this card at the end of the round."
+  },
+  {
+    "slug": "boot-integrity",
+    "name": "Boot Integrity",
+    "types": [
+      "Defense"
+    ],
+    "description": "Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms. This can be accomplished with a Trusted Platform Module (TPM), which is a specialized chip on an endpoint device that stores specific encryption keys.",
+    "effect": "Discard any attack targeting one of your Assets that isn\u2019t a Personnel or Service Provider. Gain 1 point and discard this card at the end of the round."
+  },
+  {
+    "slug": "booz-allen-dark-labs",
+    "name": "Booz Allen Dark Labs",
+    "types": [
+      "Asset",
+      "Service"
+    ],
+    "description": "At **Booz Allen DarkLabs**, the hardest national cybersecurity problems drive their research and development agenda. Dark Labs research and prototyping unit rapidly designs, creates, and tests novel security services and solutions.",
+    "effect": "While in play, you will generate **1 point** for each **Policy** and **Strategy** type cards you have in play at the end of the round. You may only have one **Booz Allen Dark Labs** in play at a time."
+  },
+  {
+    "slug": "budget-cuts",
+    "name": "Budget Cuts",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent is struggling to maintain a sustainable budget. It is not uncommon for security budgets to be cut when a business encounters financial difficulties. Unfortunately, this will often affect the security readiness of the company.",
+    "effect": "Select an opponent. That opponent must discard from play one Asset card of their choice."
+  },
+  {
+    "slug": "budget-increased",
+    "name": "Budget Increased",
+    "types": [
+      "Event",
+      "Upgrade"
+    ],
+    "description": "You received an increase to your security budget and purchased newer and more powerful equipment.",
+    "effect": "Attach this card to an **Asset \u2013 System** card that you have in play. While the attached Asset \u2013 System is in play, it generates one (1) additional point each round."
+  },
+  {
+    "slug": "buffer-overflow",
+    "name": "Buffer Overflow",
+    "types": [
+      "Attack",
+      "Code Exploit"
+    ],
+    "description": "A program in one of your opponent\u2019s systems was not written with secure code. An attacker was able to cause a buffer overflow, overwriting an unrelated system memory by exceeding the intended capacity of a data storage structure. They used that memory override to issue unauthorized instructions to the system.",
+    "effect": "Select an opponent. That opponent loses 3 points at the end of this round. Discard the Buffer Overflow card at the end of the round."
+  },
+  {
+    "slug": "cert",
+    "name": "CERT",
+    "types": [
+      "Event"
+    ],
+    "description": "A Computer Emergency Response Team (CERT) is engaged to respond to security breaches, viruses and other potentially catastrophic incidents impacting your network.",
+    "effect": "Play up to two Defense cards from your hand as Events in response to an Attack played against you. At the end of the round, you lose 1 point for each Defense card played in this way. Discard this card at the end of the round."
+  },
+  {
+    "slug": "ciso",
+    "name": "CISO",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "A Chief Information Security Officer (CISO) is responsible for planning, coordinating and directing all computer, network and data security needs of their employer.",
+    "effect": "Each Personnel card that you have in play, excluding Attack \u2013 Personnel, generates 1 point at the end of the round while this card is in play. Discard this card after 2 rounds. You may only have one \u201cCISO\u201d card in play at a time."
+  },
+  {
+    "slug": "compromised-user-account",
+    "name": "Compromised User Account",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "Credential access allows adversaries to control an account on the network, and makes it harder for defenders to detect the adversary.",
+    "effect": "Select an **Attack \u2013 Hack card you control**. If that card would discard itself after \u201cx\u201d rounds, instead leave it in play until removed by other means."
+  },
+  {
+    "slug": "crowdstrike-falcon-overwatch",
+    "name": "CrowdStrike Falcon OverWatch",
+    "types": [
+      "Defense",
+      "Service"
+    ],
+    "description": "Global, 24/7 threat hunters proactively hunt hidden and advanced attacks throughout customer environments, rapidly alerting you to new malicious activity as soon as it\u2019s uncovered.",
+    "effect": "Attach this card to a **Defense \u2013 Software** you have in play. While in play, all opponent\u2019s **Attack \u2013 Personnel** and Adversaries will be discarded after 1 round of play."
+  },
+  {
+    "slug": "crowdstrike-falcon-prevent",
+    "name": "CrowdStrike Falcon Prevent",
+    "types": [
+      "Defense",
+      "Software"
+    ],
+    "description": "Falcon Prevent is a next-gen antivirus that uses cutting-edge AI, advanced behavioral analysis with indicators of attack, and exploit mitigation to detect advanced and unknown threats.",
+    "effect": "While in play, this card counters and prevents **Attack \u2013 Malware** cards, including rootkits, from targeting you. Once during your turn, while this card is in play, you may select one **Attack \u2013 Hack** affecting you and discard it."
+  },
+  {
+    "slug": "cryptolocker",
+    "name": "CryptoLocker",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Your opponent was attacked by the CryptoLocker ransomware, which maliciously encrypted files on their devices to make them unusable. The ransomware is demanding payment in exchange for decrypting the files.",
+    "effect": "Target opponent cannot earn any points from **Asset \u2013 Data** cards, and **loses 1 point** at the end of each round that this is in play. The affected player may discard 3 cards to remove CryptoLocker from play."
+  },
+  {
+    "slug": "cyber-risk-analyst",
+    "name": "Cyber Risk Analyst",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "You work with a Booz Allen **Cyber Risk Analyst**, who assists you with discovering your cyber risks, understanding the needed cybersecurity policies for your organization, and developing a mitigation plan.",
+    "effect": "When played, you may search your deck for any **Policy** or **Strategy** type card and put it in your hand. **Shuffle your deck** once you\u2019ve chosen a card. Discard this card when you play a **Policy** or **Strategy** card."
+  },
+  {
+    "slug": "cyber-threat-analysis",
+    "name": "Cyber Threat Analysis",
+    "types": [
+      "Event"
+    ],
+    "description": "Cyber threat analysis is a process in which internal and external vulnerabilities are investigated and matched against real-world cyber attacks.",
+    "effect": "This card can be played if your opponent has an **Attack** in play that can also be found in any discard pile. Discard that Attack card and this card from play."
+  },
+  {
+    "slug": "cyberpatriot",
+    "name": "CyberPatriot",
+    "types": [
+      "Event"
+    ],
+    "description": "You participated in the CyberPatriot National Youth Cyber Defense Competition, which teaches both middle and high school students basic cybersecurity principles and practices.",
+    "effect": "Select any number of Password Cracked, Phishing and Forgot to Patch OS cards currently in play and affecting you. **Discard all target Attack cards** and **remove this card** when played."
+  },
+  {
+    "slug": "data-backup",
+    "name": "Data Backup",
+    "types": [
+      "Asset",
+      "Data"
+    ],
+    "description": "You are now regularly making copies of all the data on one of your assets. While it would be convenient to keep these backups in the same place, they are kept off-site to ensure that the data survives.",
+    "effect": "Attach this to an **Asset \u2013 Server** that you have in play. If this Asset \u2013 Server is removed from play, instead of discarding all attached Asset \u2013 Data cards as usual, put them back into your hand instead, then discard this Data Backup card."
+  },
+  {
+    "slug": "data-care",
+    "name": "Data Care",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "Data care encourages everyone to take personal care of their data. Whether using social media, mobile devices or your home\u2019s WiFi, everyone is responsible for protecting their personal data.",
+    "effect": "If you have more Defense than Asset cards, you gain up to three additional points (e.g., 1 point gained if you have 2 Defenses and 1 Asset). Draw a card for each point you gained; you do not need to discard during this turn. Discard this card at the end of your turn."
+  },
+  {
+    "slug": "data-destruction",
+    "name": "Data Destruction",
+    "types": [
+      "Data Breach"
+    ],
+    "description": "A malicious attacker has gained access to one of your opponent\u2019s machines and destroyed all of the data files stored on that device.",
+    "effect": "Select an **Asset \u2013 Server** that an opponent has in play. All Asset \u2013 Data cards currently attached to that opponent\u2019s Asset \u2013 Server are removed from play. Remove Data Destruction from play after use."
+  },
+  {
+    "slug": "data-disposal-policy",
+    "name": "Data Disposal Policy",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "With the rise of data breaches and identity theft, you implement a policy that outlines how to discard objects that may contain confidential information.",
+    "effect": "This card prevents any loss of points from all **Attack \u2013 Data Breach** cards that target your discard pile."
+  },
+  {
+    "slug": "data-driven-cybersecurity",
+    "name": "Data Driven Cybersecurity",
+    "types": [
+      "Defense",
+      "Strategy"
+    ],
+    "description": "**Data driven cybersecurity** is about figuring out how to extract, normalize, and apply data to accelerate security operations\u2014ideally faster than adversaries.",
+    "effect": "While in play, if your opponent has more **Attack** cards on the field than you have **Defense** cards, you may **draw one** card from your deck and reveal it to your opponent. If it\u2019s not a **Defense** card, shuffle it back into your deck. This effect can only happen **once per round**."
+  },
+  {
+    "slug": "data-exfiltration",
+    "name": "Data Exfiltration",
+    "types": [
+      "Attack",
+      "Data Breach"
+    ],
+    "description": "An unauthorized user on one of your opponent\u2019s machines is transferring sensitive data to an external network, compromising the confidentiality of that data and damaging their reputation.",
+    "effect": "Select an Asset \u2013 Server that an opponent has in play. That opponent **loses 4 points** at the end of this round **for each Asset \u2013 Data card attached** to the target server. Remove this card from play at the end of this round."
+  },
+  {
+    "slug": "database-server",
+    "name": "Database Server",
+    "types": [
+      "Asset",
+      "Server"
+    ],
+    "description": "You have acquired and configured a server to host database applications and facilitate queries and connections to that data.",
+    "effect": "You receive 1 point each round this card is in play."
+  },
+  {
+    "slug": "deceptive-phishing",
+    "name": "Deceptive Phishing",
+    "types": [
+      "Attack",
+      "Phishing",
+      "Social Engineering"
+    ],
+    "description": "Phishing attacks often involve emails that appear to come from a trustworthy source; however, they are actually sent by malicious actors attempting to obtain information they shouldn\u2019t have.",
+    "effect": "Select an opponent. That opponent loses 1 point per round."
+  },
+  {
+    "slug": "dedicated-server",
+    "name": "Dedicated Server",
+    "types": [
+      "Asset",
+      "Server"
+    ],
+    "description": "A server is more powerful than a desktop or laptop, has more memory, and is dedicated to running the services you need for your network.",
+    "effect": "Select 1 **Asset \u2013 System** that you have in play. Discard that Asset \u2013 System and put this card in play. You receive 2 points each round this card is in play."
+  },
+  {
+    "slug": "defense-in-depth",
+    "name": "Defense In Depth",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "Defense in depth is an information assurance concept in which multiple layers of security controls (defense) are placed throughout your network.",
+    "effect": "Gain a point at the end of the round for each unique Defense you have in play up to 3 points. Discard this card at the end of the round."
+  },
+  {
+    "slug": "denial-of-service-dos",
+    "name": "Denial of Service (DoS)",
+    "types": [
+      "Attack",
+      "Denial"
+    ],
+    "description": "An attacker has launched a Denial of Service (DoS) attack against your opponent\u2019s systems. One system is now not functioning and no work can be accomplished on it.",
+    "effect": "Select an **Asset \u2013 System** card that your opponent has in play. That Asset \u2013 System cannot generate any points for one (1) round. **Remove** this card from play **after one (1) round.**"
+  },
+  {
+    "slug": "desktop-computer",
+    "name": "Desktop Computer",
+    "types": [
+      "Asset",
+      "System"
+    ],
+    "description": "A typical desktop computer that can be used to connect to the internet through an Internet Service Provider (ISP).",
+    "effect": "You receive 1 point each round this card is in play."
+  },
+  {
+    "slug": "digital-forensic-examiner",
+    "name": "Digital Forensic Examiner",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "Much like a forensic investigator captures evidence from the scene of a crime, a **digital forensic examiner** gathers evidence found on computers, phones, and other digital devices.",
+    "effect": "While in play and once per round, when an opponent\u2019s **Attack** targets an **Asset** that is not a **Personnel**, perform this effect. Draw 3 cards, discard any of those cards that is not a **Defense**."
+  },
+  {
+    "slug": "digital-media-archive",
+    "name": "Digital Media Archive",
+    "types": [
+      "Asset",
+      "Data"
+    ],
+    "description": "You have taken on a contract with popular entertainment outlets to store archives of all kinds of digital media, while still remaining accessible if network demand for that content increases.",
+    "effect": "Select an **Asset \u2013 Server** that you have in play and attach this card to it. You receive 1 point each round this card is in play."
+  },
+  {
+    "slug": "drive-by-download",
+    "name": "Drive-By Download",
+    "types": [
+      "Attack",
+      "Code Exploit"
+    ],
+    "description": "Your opponent visited a website that was affected by malware. The malware downloaded onto your opponent\u2019s system without their knowledge.",
+    "effect": "Search your deck and discard pile for any playable malware card. Play the Malware; it does not count towards your playable card limit. Shuffle your deck and discard."
+  },
+  {
+    "slug": "dumpster-dive",
+    "name": "Dumpster Dive",
+    "types": [
+      "Attack",
+      "Data Breach"
+    ],
+    "description": "Improperly discarded data is a major security vulnerability, and some determined attackers are going through your opponent\u2019s trash. Junk mail and inappropriately discarded electronics can still contain a wealth of information.",
+    "effect": "Select an **opponent\u2019s discard pile**. That opponent loses 2 points for each **Asset \u2013 Data** card in their discard pile at the end of this round. **Remove this card** from play after 1 round."
+  },
+  {
+    "slug": "encryption",
+    "name": "Encryption",
+    "types": [
+      "Defense",
+      "Encryption"
+    ],
+    "description": "You activate encryption on your wireless device. This scrambles the signal so that attackers can\u2019t listen to your wireless traffic.",
+    "effect": "Select a **Wireless Network** card that you have in play and attach this card to it. That Wireless Network is now encrypted. While encrypted, it cannot be the target of Wireless Sniffing cards. Remove from play any Wireless Sniffing cards that affect the encrypted Wireless Network."
+  },
+  {
+    "slug": "enhanced-threat-protection",
+    "name": "Enhanced Threat Protection",
+    "types": [
+      "Defense",
+      "Service"
+    ],
+    "description": "A company with services that can detect, quarantine and block suspicious emails, and protect your network can be a great arsenal in defending your network.",
+    "effect": "Attach this card to a **Defense \u2013 Software** card you have in play. This card prevents and removes Attack \u2013 Phishing and Information Gathering cards affecting you."
+  },
+  {
+    "slug": "extreme-overheating",
+    "name": "Extreme Overheating",
+    "types": [
+      "Event"
+    ],
+    "description": "One of your opponent\u2019s assets has been producing too much heat. Without proper cooling or shielding, excessive heat can cause irreversible damage to electronic circuits and their components.",
+    "effect": "Select either an Asset \u2013 System or an Asset \u2013 Server that your opponent has in play. Both the target card and this card are discarded."
+  },
+  {
+    "slug": "failed-certification",
+    "name": "Failed Certification",
+    "types": [
+      "Event"
+    ],
+    "description": "One of your opponent\u2019s staff has not kept up their certifications for their field and must be let go.",
+    "effect": "Choose an opponent and select 1 **Personnel card** that they have in play. Discard this card and the selected card immediately. If no Personnel card is in play, your opponent must reveal their hand and they must choose a Personnel card from their hand to discard if possible. Discard this card at the end of the round."
+  },
+  {
+    "slug": "filter-network-traffic",
+    "name": "Filter Network Traffic",
+    "types": [
+      "Defense"
+    ],
+    "description": "When flood volumes exceed the capacity of the network connection, it is necessary to intercept the incoming traffic to filter out the attack traffic from the legitimate traffic. Such defenses can be provided by the hosting Internal Service Provider (ISP).",
+    "effect": "Search your deck for a **Firewall** card. Place it in your hand and shuffle your deck. **For each ISP** that you have in play, gain 1 point to a maximum of 3 points. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "financial-data",
+    "name": "Financial Data",
+    "types": [
+      "Asset",
+      "Data"
+    ],
+    "description": "You have been entrusted with some sensitive financial data, including bank account and credit card information, for processing and analysis.",
+    "effect": "Attach this card to an **Asset \u2013 Server** that you have in play. You receive 1 point each round this card is in play."
+  },
+  {
+    "slug": "firewall-rules-not-updated",
+    "name": "Firewall Rules Not Updated",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent has forgotten to update their firewall rules, which will allow attackers to penetrate it using newer exploits.",
+    "effect": "Select a Firewall card that an opponent has in play and discard that card. Your opponent loses two (2) points this round. Remove this card from play after one (1) round."
+  },
+  {
+    "slug": "firewall",
+    "name": "Firewall",
+    "types": [
+      "Defense",
+      "Hardware"
+    ],
+    "description": "You install and setup a network-based firewall. This firewall uses a simple set of rules to allow or deny connections between your local network and the internet. This will help to prevent unauthorized access to your systems.",
+    "effect": "This card will prevent or counter the Spoofing/Hacking attack card. Remove from play any \u201cFirewall Rules Not Updated\u201d cards affecting you when this card is put into play."
+  },
+  {
+    "slug": "footprinting",
+    "name": "Footprinting",
+    "types": [
+      "Attack",
+      "Information Gathering"
+    ],
+    "description": "Information Gathering \u2013 Footprinting is a technique used to gather information about the target system and is usually performed prior to the actual attack.",
+    "effect": "Attach this card to the next Attack you play this round. The Attack removes an additional point each round, until this Attack is removed. If no Attack is played after this card, discard this card at the end of the round."
+  },
+  {
+    "slug": "forgot-to-patch-os",
+    "name": "Forgot To Patch OS",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent forgot to install a critical security update to their operating system (OS). Their system is now vulnerable to attack.",
+    "effect": "Select an opponent. If they **do not have an OS Update/Patch card** in play, choose at random one (1) card from their hand to discard. Otherwise, if they **have an OS Update/Patch card** in play, remove that card from play. This card is removed from play after use."
+  },
+  {
+    "slug": "hacktivist",
+    "name": "Hacktivist",
+    "types": [
+      "Attack",
+      "Personnel"
+    ],
+    "description": "Your opponent has been targeted with a coordinated campaign from a nefarious group who is opposed to their political views.",
+    "effect": "Select an opponent. That opponent must discard 1 card from the top of their deck. While in play, that opponent loses 2 points per round. **Discard this card after 2 rounds.**"
+  },
+  {
+    "slug": "hardware-failure",
+    "name": "Hardware Failure",
+    "types": [
+      "Event"
+    ],
+    "description": "The failure of critical computer and network equipment causes your opponent to lose the use of an asset.",
+    "effect": "Select an **Asset \u2013 System** card that an opponent has in play. Both the target card and this card are discarded."
+  },
+  {
+    "slug": "honeypot",
+    "name": "Honeypot",
+    "types": [
+      "Defense"
+    ],
+    "description": "You create a honeypot which is intended to detect unauthorized activity on your network. This closely monitored data appears to contain vulnerable, valuable and useful information, but it is designed as bait for network intrusion detection.",
+    "effect": "Attach this to an **Asset \u2013 Server** that you have in play. If this Asset \u2013 Server is the target of an Attack \u2013 Data Breach, you may choose to prevent that attack; if so, discard this Honeypot card."
+  },
+  {
+    "slug": "host-based-firewall",
+    "name": "Host-based Firewall",
+    "types": [
+      "Defense",
+      "Software"
+    ],
+    "description": "You configure host-based firewalls on all of your systems and servers. Firewalls typically establish a barrier between a trusted internal network and untrusted external network, such as the Internet.",
+    "effect": "While in play, this card counters and prevents Attack \u2013 Denial cards targeting you. You may only have one of this card in play."
+  },
+  {
+    "slug": "hostile-screen-capture",
+    "name": "Hostile Screen Capture",
+    "types": [
+      "Attack",
+      "Information Gathering"
+    ],
+    "description": "Adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation.",
+    "effect": "Select an opponent\u2019s **Asset \u2013 System** card that is in play. If that Asset is removed, discard this card. Each time your opponent plays an Asset or Defense card, **select one card in their hand to view**. Your opponent loses 1 point at the end of each round."
+  },
+  {
+    "slug": "hyperjacking",
+    "name": "Hyperjacking",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "Hyperjacking is an attack in which an adversary takes malicious control over the hypervisor that creates the virtual environment within a virtual machine (VM) host.",
+    "effect": "Attach this card to an **Attack \u2013 Malware** card you have in play. If the Malware card is discarded, place it fourth from the top of your deck and discard this card instead."
+  },
+  {
+    "slug": "i-love-you-virus",
+    "name": "\u201cI Love You\u201d Virus",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Your opponent is hit by the \u201cI Love You\u201d email virus. It appeared to be an email from a friend with the subject \u201cI Love You\u201d but contained an attachment that destroyed system files when opened.",
+    "effect": "Select an opponent. That opponent loses one (1) point per round until this card is countered and removed from play."
+  },
+  {
+    "slug": "information-security-analyst",
+    "name": "Information Security Analyst",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "An Information Security Analyst (ISA) is responsible for the protection of several computer systems and networks.",
+    "effect": "Choose one:\n\nAt the start of each round, select one of your Defense cards in play. It cannot be discarded this round by any opponent while this card is in play.\n\nOR\n\nSelect an Asset card from your discard pile that is not a Personnel type and shuffle it into your deck. Discard this card at the end of the round."
+  },
+  {
+    "slug": "information-security-specialist",
+    "name": "Information Security Specialist",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "The duties of an Information Security Specialist include developing plans to safeguard computer files against unauthorized tampering, managing computer anti-virus and malware protection systems, encrypting data transmission, and erecting firewalls.",
+    "effect": "Once per turn you may draw a card from your deck and reveal it to your opponent. If it is not a **Defense** \u2013 **Software**, discard that card. You can continue this effect until you draw a **Defense** \u2013 **Software**."
+  },
+  {
+    "slug": "information-sharing",
+    "name": "Information Sharing",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "You become involved in sharing cyber threat information, which improves global network security and undermines potential threats by enabling participants to better identify vulnerabilities, prepare for attacks, and recover from incidents.",
+    "effect": "While this card is in play, each **Attack \u2013 Hack** card affecting you has a total value of -1 point per round instead of its normal value."
+  },
+  {
+    "slug": "insider-threat",
+    "name": "Insider Threat",
+    "types": [
+      "Attack",
+      "Personnel"
+    ],
+    "description": "An Insider Threat is someone who has authorized access and causes a negative impact to an organization either intentionally or unintentionally.",
+    "effect": "Remove a Personnel or a Defense \u2013 Software, excluding Attack \u2013 Personnel, that an opponent has in play. That opponent loses 2 points at the end of the round. Discard this card at the end of the round."
+  },
+  {
+    "slug": "intelligence-driven-defense",
+    "name": "Intelligence Driven Defense",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "The Lockheed Martin Intelligence Driven Defense philosophy supports the intent to stop offensive maneuvers during a cyber attack while maintaining a defensive posture.",
+    "effect": "While this card is in play, if your opponent plays an Attack targeting you, you may view the top 2 cards of their deck. Put any Attack cards viewed at the bottom of their deck and return the rest to the top of their deck in the original order."
+  },
+  {
+    "slug": "internal-spear-phishing",
+    "name": "Internal Spear Phishing",
+    "types": [
+      "Attack",
+      "Phishing"
+    ],
+    "description": "Adversaries use internal spear phishing to gain additional information or to exploit users within the organization after gaining access to accounts or systems within the environment.",
+    "effect": "This attack can only be played if a Malware card is affecting your opponent or if your opponent has a Personnel card in play. If both requirements are met, remove 3 points this round. Otherwise, remove 2 points. **Discard this card after 2 rounds.**"
+  },
+  {
+    "slug": "intrusion-prevention",
+    "name": "Intrusion Prevention",
+    "types": [
+      "Defense",
+      "IPS",
+      "Software"
+    ],
+    "description": "Intrusion Prevention Systems monitor systems and prevent malicious changes that would occur within it as well as remove what caused the unwanted change.",
+    "effect": "**Discard all rootkits** your target opponent has in play. Once during your turn, while this card is in play, you may select one **Malware or Hack** affecting you and discard it."
+  },
+  {
+    "slug": "isao-membership",
+    "name": "ISAO Membership",
+    "types": [
+      "Asset"
+    ],
+    "description": "You just became a member of an Information Sharing and Analysis Organization (ISAO), which analyzes and shares information related to cybersecurity risks and incidents, enhancing your situational awareness and ability to respond to cyber threats.",
+    "effect": "While this card is in play, whenever an Attack card is put into play by an opponent, you may immediately put a Defense card from your hand into play."
+  },
+  {
+    "slug": "isp-connection",
+    "name": "ISP Connection",
+    "types": [
+      "Asset",
+      "ISP"
+    ],
+    "description": "Establishes a connection to the Internet through an Internet Service Provider (ISP).",
+    "effect": "This card allows you to put 2 Desktop or Server cards into play. You cannot gain points unless you have at least 1 ISP Connection in play."
+  },
+  {
+    "slug": "it-auditor",
+    "name": "IT Auditor",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "An IT Auditor assesses an organization\u2019s technology for potential issues with security, efficiency, and compliance.",
+    "effect": "Once per turn you may discard 1 card from the top of your deck and return a **Defense** card that is not a **Personnel** card from your discard pile to your deck. Shuffle your deck. Discard this card after you\u2019ve used this effect twice."
+  },
+  {
+    "slug": "it-security-consultant",
+    "name": "IT Security Consultant",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "IT Security Consultants advise organizations how to best protect their cybersecurity objectives in a cost-effective manner.",
+    "effect": "When played, draw 1 card and show your opponent that card. If it\u2019s a Defense card, draw another card. Otherwise, you gain 1 point at the end of the round. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "it-security-engineer",
+    "name": "IT Security Engineer",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "IT Security Engineers provide a specialized engineering approach to cybersecurity, often involved in systems maintenance and performing security checks.",
+    "effect": "You gain 1 point at the end of the round for each Attack card in your opponent\u2019s discard pile, to a max of 3 points. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "jackal",
+    "name": "JACKAL",
+    "types": [
+      "Adversary",
+      "Attack",
+      "Personnel"
+    ],
+    "description": "JACKAL groups \u2013 aka hacktivists \u2013 are individuals or groups of hackers that form to conduct attacks in support of ideological beliefs, or to protest a geopolitical issue. These attacks often include DDoS, website defacements and data leaks.",
+    "effect": "When played, search your deck for an **Attack** card and add it to your hand, then shuffle. Your opponent loses 1 point each round this card is in play and an additional point if you have another **Attack \u2013 Denial** in play. Discard this card after 2 rounds."
+  },
+  {
+    "slug": "job-fair",
+    "name": "Job Fair",
+    "types": [
+      "Event"
+    ],
+    "description": "A job fair is an event in which multiple employers, recruiters, and schools meet in a public place to give information to potential employees.",
+    "effect": "When played, all players may search their deck for a **Personnel** type card and place it into their hand, then shuffle their deck. Discard this card."
+  },
+  {
+    "slug": "laptop-computer",
+    "name": "Laptop Computer",
+    "types": [
+      "Asset",
+      "System",
+      "Wireless"
+    ],
+    "description": "A typical laptop computer that can be used to connect to the Internet via a Wireless Router.",
+    "effect": "You must have a Wireless Network type card in play before playing this card. You receive 1 point each round this card is in play."
+  },
+  {
+    "slug": "malicious-app",
+    "name": "Malicious App",
+    "types": [
+      "Attack",
+      "Mobile"
+    ],
+    "description": "Your opponent downloaded a malicious app application onto their mobile device, which sends out their information when executed.",
+    "effect": "Select an **Asset \u2013 System** or **Asset \u2013 Mobile** card that your opponent has in play. That opponent loses 1 point per round."
+  },
+  {
+    "slug": "malware-analyst",
+    "name": "Malware Analyst",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "Malware analysts meticulously examine malicious software to understand the nature of the threat. They investigate how malware infiltrates systems, the vulnerabilities it exploits, the actions taken, and its current or potential objectives.",
+    "effect": "You gain 1 point at the end of the round for each **Malware** card in your opponent\u2019s discard pile, to a max of 4 points. Discard this card at the end of the round."
+  },
+  {
+    "slug": "memory-leak",
+    "name": "Memory Leak",
+    "types": [
+      "Event"
+    ],
+    "description": "An application is allocating memory for data storage but is not appropriately deallocating that memory, leading to a memory leak which reduces the resources available on that system.",
+    "effect": "Select an opponent. That player must immediately discard one (1) card from their hand. Discard this card after its effect resolves."
+  },
+  {
+    "slug": "mini-pc",
+    "name": "Mini PC",
+    "types": [
+      "Asset",
+      "System"
+    ],
+    "description": "A Mini PC, also known as a small form factor PC, is a compact computer that generally offers the functionality of a desktop or laptop computer but in a smaller and more portable size. Mini PCs are designed to be energy-efficient and save space.",
+    "effect": "You gain 1 point each round."
+  },
+  {
+    "slug": "mitre-attck",
+    "name": "MITRE ATT&CK",
+    "types": [
+      "Defense",
+      "Resource"
+    ],
+    "description": "MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics that allows defenders to better understand attackers and be able to spot them more easily.",
+    "effect": "While in play, if you have 3 Defense cards, you may play one extra card during your turn. If you have no other defense cards in play, discard this card. If a Denial card is affecting you, this card\u2019s effect can\u2019t be used. You may only have 1 of this card in play."
+  },
+  {
+    "slug": "mobile-device-management",
+    "name": "Mobile Device Management",
+    "types": [
+      "Defense",
+      "Software"
+    ],
+    "description": "Mobile device management software allows devices to be remotely disabled in the event they have been stolen, lost or are inappropriately used on the network.",
+    "effect": "While in play, you may use this card\u2019s effect once per round to return a System, Wireless System or Mobile Asset card from your field to your deck and shuffle."
+  },
+  {
+    "slug": "netbleed",
+    "name": "Netbleed",
+    "types": [
+      "Attack",
+      "Code Exploit"
+    ],
+    "description": "A bug went undetected in your opponent\u2019s network causing them to leak data that hackers have now exploited.",
+    "effect": "Select an opponent who will choose to either discard the top card from their draw pile or lose 3 points at the end of the round. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "network-dos",
+    "name": "Network DoS",
+    "types": [
+      "Attack",
+      "Denial"
+    ],
+    "description": "Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users. Example resources include websites, email services and web-based applications.",
+    "effect": "Select an Attack \u2013 Denial card you have in play and return it to your hand. All of your opponent\u2019s System and Server Assets gain 0 points. Firewall does not affect this card. Discard this card at the end of the round."
+  },
+  {
+    "slug": "office-laptop",
+    "name": "Office Laptop",
+    "types": [
+      "Asset",
+      "System",
+      "Wireless"
+    ],
+    "description": "A computer that is provided and used at a business by employees that can be taken home.",
+    "effect": "Gain 1 point at the end of the round. As long as you have an **Asset \u2013 Personnel** or a **Defense \u2013 Personnel** card in play, gain 1 additional point."
+  },
+  {
+    "slug": "os-update-patch",
+    "name": "OS Update/Patch",
+    "types": [
+      "Defense",
+      "Software Update"
+    ],
+    "description": "You have received a notification that there is a critical update to your operation system (OS). It patches a security vulnerability that would allow attackers to take over your computer.",
+    "effect": "This card will **prevent one (1) \u201cForgot to Patch OS\u201d** event card, but this card must be in play before the Forgot to Patch OS event card is in play. You may only have one of this card in play."
+  },
+  {
+    "slug": "outdated-policy",
+    "name": "Outdated Policy",
+    "types": [
+      "Event"
+    ],
+    "description": "One of your opponent\u2019s policies is outdated and has become useless. As technologies and threats evolve, it is important to ensure that policies are kept updated with relevant information and procedures for handling these changes.",
+    "effect": "Select a Defense \u2013 Policy card that an opponent has in play. The target card and this card are immediately discarded."
+  },
+  {
+    "slug": "password-cracked",
+    "name": "Password Cracked",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "Your opponent picked a bad or weak password. An attacker was able to guess the password and has accessed their accounts and system.",
+    "effect": "Select an opponent. That opponent loses one (1) point each round for two (2) rounds. **Remove** this card from play **after two rounds.**"
+  },
+  {
+    "slug": "penetration-tester",
+    "name": "Penetration Tester",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "Penetration testers are authorized personnel tasked with breaking into and finding vulnerabilities in computers and networks before outside intruders can cause harm.",
+    "effect": "Search your deck for a Defense card that removes an Attack card your opponent has in play. Show your opponent the drawn card, then put that card into your hand and shuffle the deck. Discard this card after shuffling."
+  },
+  {
+    "slug": "phishing-training",
+    "name": "Phishing Training",
+    "types": [
+      "Event"
+    ],
+    "description": "You attended a special security training course that taught you all about popular email scams so that you don\u2019t fall victim to those attacks.",
+    "effect": "Select a Phishing or Spear Phishing attack card that is in play and affecting you. Both this card and the target card are discarded."
+  },
+  {
+    "slug": "phishing",
+    "name": "Phishing",
+    "types": [
+      "Attack",
+      "Phishing"
+    ],
+    "description": "Your opponent responded to an email asking for their security/login information. The attacker can now access your opponent\u2019s account and system.",
+    "effect": "Select an opponent. That opponent loses two (2) points each round for two (2) rounds. **Remove** this card from play **after two rounds.**"
+  },
+  {
+    "slug": "ping-flood",
+    "name": "Ping Flood",
+    "types": [
+      "Attack",
+      "Denial"
+    ],
+    "description": "An unknown adversary is consistently attacking your opponent\u2019s network with a denial of service attack. The systems are being flooded with random packets of data.",
+    "effect": "Select a System or Server card that your opponent has in play. That target cannot gain any points while this card is in play. At the beginning of your turn, you may return this card from play to your hand."
+  },
+  {
+    "slug": "ping-of-death",
+    "name": "Ping of Death",
+    "types": [
+      "Attack",
+      "Denial"
+    ],
+    "description": "A malformed ping packet was sent to your opponent\u2019s computer system, which caused a buffer overflow when rebuilt. This caused the system to crash and be injected with malicious code.",
+    "effect": "Select an opponent\u2019s Asset \u2013 System card. That opponent must discard 1 card before drawing at the end of their turn and the targeted System does not generate any points each round. You may only have one Ping of Death in play at a time."
+  },
+  {
+    "slug": "play-ransomware",
+    "name": "PLAY Ransomware",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "PLAY Ransomware implements anti-analysis techniques, including call-stack obfuscation, opaque predicates, garbage code, dynamic API function pointer encryption, and user-mode API unhooking.",
+    "effect": "Select an **Asset \u2013 System** or **Server** that your opponent has in play; if **RECESS SPIDER** is in play, you may select an additional **System** or **Server**. The selected **Asset**s receive no points while this card is in play. Remove 1 point per round while this card is in play. Discard this card after 2 rounds."
+  },
+  {
+    "slug": "polymorphic-malware",
+    "name": "Polymorphic Malware",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Polymorphism means \u201cto change the appearance of\u201d something. This malware has the ability to redefine its signature, or how the code appears to anti-virus scanners, making it much more difficult to detect.",
+    "effect": "This card cannot be affected by Anti-Malware/Virus defense cards. Select an opponent. That opponent loses 2 points this round. Remove this card from play after 1 round."
+  },
+  {
+    "slug": "poor-encryption-key",
+    "name": "Poor Encryption Key",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent chose a very poor wireless encryption key which allowed an attacker to crack or break it, thus gaining the ability to monitor their wireless traffic.",
+    "effect": "Select an **Encryption** card that your opponent has in play. Both this card and the target Encryption card are discarded."
+  },
+  {
+    "slug": "power-outage",
+    "name": "Power Outage",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent experiences a loss of electrical power. This means that no work can be accomplished.",
+    "effect": "Select an opponent. That **opponent loses their turn** and **receives no points** during that round for any of their Asset cards."
+  },
+  {
+    "slug": "privacy-violation",
+    "name": "Privacy Violation",
+    "types": [
+      "Event"
+    ],
+    "description": "Your opponent\u2019s data has been audited, and it appears that some personal information is not being properly removed from the data before being shared. This privacy violation has caused damage to their reputation and may lead to litigation.",
+    "effect": "Select an **Asset \u2013 Data** card that your opponent has in play. That card now has a value of -3 for this round. Discard Privacy Violation at the end of this round."
+  },
+  {
+    "slug": "purple-team",
+    "name": "Purple Team",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "**Purple team**ing is a collaborative approach to cybersecurity that brings together **red** and **blue** teams to test and improve an organization\u2019s security posture.",
+    "effect": "While in play, if you play an **Attack** card your opponent cannot play an **Attack with the same subtype** on their next turn _unless_ you play a new **Attack** card. If you have either a **Red Team** or **Blue Team** card in play you may perform that card\u2019s first effect twice when activated."
+  },
+  {
+    "slug": "rackspace-managed-services",
+    "name": "Rackspace Managed Services",
+    "types": [
+      "Defense"
+    ],
+    "description": "You establish a contract with specialist from Rackspace Managed Services (RMS) which helps to automate security processes, quickly detecting and ejecting threats to help minimize damage.",
+    "effect": "While this card is in play, **all Attack cards** that target you **expire in one round** instead of their usual timeframe. Remove this card from play after 3 rounds."
+  },
+  {
+    "slug": "ransomware",
+    "name": "Ransomware",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Your opponent clicked on a link which ran a program that encrypted all of their files and left a message demanding payment to get those files encrypted.",
+    "effect": "Select an **Asset \u2013 System** card that your opponent has in play. They receive **no points** from that Asset \u2013 System for 3 rounds. **Remove** this card from play **after 3 rounds.**"
+  },
+  {
+    "slug": "recess-spider",
+    "name": "RECESS SPIDER",
+    "types": [
+      "Adversary",
+      "Attack",
+      "Personnel"
+    ],
+    "description": "RECESS SPIDER is a \u201cbig game hunting\u201d adversary that deploys PLAY ransomware to opportunistically encrypt victims across several sectors and geographical regions.",
+    "effect": "Remove 2 points from your opponent while this card is in play. If you have **Ransomware** in play, remove 3 points instead. Discard this card after 2 rounds."
+  },
+  {
+    "slug": "recruitment-drive",
+    "name": "Recruitment Drive",
+    "types": [
+      "Event"
+    ],
+    "description": "You hold a recruitment drive in an attempt to bring in new personnel to your workforce.",
+    "effect": "Discard 1 card from your hand then draw 3 cards. **Remove this card** at the end of the round."
+  },
+  {
+    "slug": "red-team",
+    "name": "Red Team",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "**Red Team**s are a group that plays the role of an enemy or adversary to provide security feedback from that perspective.",
+    "effect": "When you play an **Attack** card you can choose to discard it at the end of the round and gain the points that it would remove from your opponent instead. If you have a **Blue Team** or **Purple Team** card in play, **draw one card** from your deck once for this card."
+  },
+  {
+    "slug": "redundant-system",
+    "name": "Redundant System",
+    "types": [
+      "Defense"
+    ],
+    "description": "Networks and devices will eventually fail. In fact, the expectation is so high that it is measured as the Mean Time To Failure (MTTF). Redundant systems are used as substitutes for critical systems when they fail or take over their responsibilities.",
+    "effect": "When one of your Assets would be removed from play, you may instead choose to remove this Redundant System card from play."
+  },
+  {
+    "slug": "resource-hijacking",
+    "name": "Resource Hijacking",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "Adversaries may leverage the resources of co-opted systems in order to use the resources. This may impact system and/or hosted service availability.",
+    "effect": "Select an opponent\u2019s **System** or **Server** Asset card. Your opponent does not earn any points for that Asset. For each point that Asset would have gained, your opponents loses that many points. **Discard this card after 1 round.**"
+  },
+  {
+    "slug": "rogue-employee",
+    "name": "Rogue Employee",
+    "types": [
+      "Attack",
+      "Personnel"
+    ],
+    "description": "A disgruntled employee that works for your opponent intentionally allowed a major data breach to occur. The employee has been caught and fired.",
+    "effect": "Remove a **Personnel** card, excluding Attack \u2013 Personnel, that an opponent has in play. If that opponent has no Personnel in play, excluding Attack \u2013 Personnel, remove one of their Defense cards instead. That opponent loses 2 points at the end of the round. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "rootkit-malware-loader",
+    "name": "Rootkit Malware Loader",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Rootkits often conceal their presence or presence of other malware. Many rootkits also have the ability to download other malicious software onto their host.",
+    "effect": "This card is immune to Software and can\u2019t be returned from the discard pile. During your turn you may return one Malware from your discard pile to the bottom of your deck. You may only have one copy of this card in play."
+  },
+  {
+    "slug": "scattered-spider",
+    "name": "SCATTERED SPIDER",
+    "types": [
+      "Adversary",
+      "Attack",
+      "Personnel"
+    ],
+    "description": "SCATTERED SPIDER is an eCrime adversary who conducts targeted social-engineering campaigns primarily against firms specializing in customer relationship management and business-process outsourcing.",
+    "effect": "Select an opponent. That opponent loses 1 point each round until this card is discarded. While in play, you may play 1 **Attack \u2013 Phishing** or **Social Engineering** card that does not count toward your playable card limit. Discard this card after 2 rounds."
+  },
+  {
+    "slug": "scholarship-for-service",
+    "name": "Scholarship for Service",
+    "types": [
+      "Asset"
+    ],
+    "description": "One of your cybersecurity interns was selected by the CyberCorps program, which strengthens the educational development of information assurance professionals. This generous scholarship program provides funding for qualified individuals in exchange for their service in a government cybersecurity role.",
+    "effect": "You gain 2 points per round for 2 rounds. At the end of the second round, remove this card from play."
+  },
+  {
+    "slug": "scientific-research",
+    "name": "Scientific Research",
+    "types": [
+      "Asset",
+      "Data"
+    ],
+    "description": "You have the opportunity to review, process and store a significant amount of cutting-edge research from major universities all around the world.",
+    "effect": "Attach this card to an **Asset \u2013 Server** that you have in play. You gain 1 point each round this card is in play."
+  },
+  {
+    "slug": "search-engine",
+    "name": "Search Engine",
+    "types": [
+      "Asset"
+    ],
+    "description": "A search engine is a powerful information retrieval tool that crawls through and indexes large sets of complex data. Once the data is indexed, it is possible to search for specific information quickly.",
+    "effect": "While this card is in play, at the beginning of your turn, you may **draw two cards** from your deck. If you do so, immediately place one of these two cards into your hand, and put the other at the bottom of your deck."
+  },
+  {
+    "slug": "secure-coding-practices",
+    "name": "Secure Coding Practices",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "Many vulnerabilities in computer systems come from programming errors found in software. You have implemented training and code review policies that significantly improved your software security.",
+    "effect": "This card prevents all Attack \u2013 Code Exploit cards from affecting you."
+  },
+  {
+    "slug": "security-manager",
+    "name": "Security Manager",
+    "types": [
+      "Asset",
+      "Personnel"
+    ],
+    "description": "Security Managers create and execute security strategies based on the input from the Security Director and/or the CISO. They must also test and implement new security tools, lead security awareness campaigns and administer both budgets and staff schedules.",
+    "effect": "Before your draw phase, you may choose to put 1 card from your hand at the bottom of your deck and then draw 1 card."
+  },
+  {
+    "slug": "security-operations-center",
+    "name": "Security Operations Center",
+    "types": [
+      "Defense",
+      "Service"
+    ],
+    "description": "Security operations centers, or SOCs, monitor and analyze activity on networks looking for anomalous activity. The SOC is responsible for ensuring that security incidents are correctly identified, analyzed, and defended.",
+    "effect": "When an **Attack** is played against you, you may play a **Defense** from your hand _as an_ **_Event_**. On your next turn, you have 1 less playable card. When you play a **Defense** card while this card is in play you may discard one card from your hand and draw a new card."
+  },
+  {
+    "slug": "security-systems-administrator",
+    "name": "Security Systems Administrator",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "The security systems administrator is in charge of system monitoring, running regular backups, and setting up, deleting and maintaining individual user accounts.",
+    "effect": "Prevents Attack \u2013 Hack, Data Breach and Phishing type cards from being played. **Discard this card after 3 rounds.**"
+  },
+  {
+    "slug": "security-training",
+    "name": "Security Training",
+    "types": [
+      "Event"
+    ],
+    "description": "You attended a security training course to learn about ways you can improve your security.",
+    "effect": "Select either a **Password Cracked** or a **Phishing** card that an opponent has in play. When played, both this card and the target card are discarded."
+  },
+  {
+    "slug": "sirefef-trojan",
+    "name": "Sirefef Trojan",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "The Sirefef family of trojan horses can disable security features as well as download and run other files.",
+    "effect": "This Trojan Horse is immune to Software and can\u2019t be returned from the discard pile. If your selected opponent has any **Defense \u2013 Software** cards in play, they must shuffle them into their deck. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "smartphone",
+    "name": "Smartphone",
+    "types": [
+      "Asset",
+      "Mobile",
+      "System"
+    ],
+    "description": "A pocket-sized consumer device that allows for mobile connectivity to the Internet through cellular and wireless networks. Offers voice, VoIP and video calling, as well as messaging and access to mobile applications.",
+    "effect": "You gain 1 point each round."
+  },
+  {
+    "slug": "smishing",
+    "name": "Smishing",
+    "types": [
+      "Attack",
+      "Phishing"
+    ],
+    "description": "A Smishing attack is a Phishing attack that goes through SMS messaging, or text messaging, which occurs most commonly through phones.",
+    "effect": "Target an opponent\u2019s **Asset \u2013 Mobile** or **Asset \u2013 Wireless System**. That opponent loses 2 points at the end of the round."
+  },
+  {
+    "slug": "snapattack",
+    "name": "SnapAttack",
+    "types": [
+      "Defense",
+      "Software"
+    ],
+    "description": "_SnapAttack_ is the world\u2019s first **Purple Team platform** that removes barriers to efficient, effective, and integrated threat detection. SnapAttack helps organizations understand the art of an attack, then teaches the science of defending against it.",
+    "effect": "Select one **Attack** in either discard pile. Opponent\u2019s **Attacks with the same subtype** have their duration reduced by 1 round (without reducing below 1), and **Attacks with no duration** last 3 rounds. If you have a **Purple Team** in play it will prevent and counter that subtype."
+  },
+  {
+    "slug": "soar",
+    "name": "SOAR",
+    "types": [
+      "Defense",
+      "Software"
+    ],
+    "description": "You hire Booz Allen to integrate a **S**ecurity **O**rchestration, **A**utomation & **R**esponse platform designed to automate processes and free up limited human cybersecurity resources. They equip your organization to focus more resources on preventative activities that keep you ahead of attackers.",
+    "effect": "Select one **Attack** card in either discard pile. When your opponent plays an **Attack** with the same name draw a card. Remove this card from play if you play another **\u201cSOAR\u201d** card."
+  },
+  {
+    "slug": "software-data-corruption",
+    "name": "Software Data Corruption",
+    "types": [
+      "Event"
+    ],
+    "description": "A critical error has occurred, resulting in data corruption within your opponent\u2019s software. They\u2019ve been forced to remove it or risk further damage.",
+    "effect": "Select a Malware or Software card that your opponent has in play. Discard the target along with this card at the end of the round."
+  },
+  {
+    "slug": "spear-phishing",
+    "name": "Spear Phishing",
+    "types": [
+      "Attack",
+      "Phishing"
+    ],
+    "description": "Your opponent\u2019s company was targeted by a special phishing attack known as Spear Phishing. They received emails created specifically to look more convincing to fool them into revealing sensitive information.",
+    "effect": "Select an opponent. That opponent loses 2 points per round for 3 rounds. Remove this card from play after 3 rounds."
+  },
+  {
+    "slug": "spoofed-scan",
+    "name": "Spoofed Scan",
+    "types": [
+      "Attack",
+      "Information Gathering"
+    ],
+    "description": "This type of scan is used to gain information on a network without having a way to trace back to the original user. The attacker spoofs their IP address to make it appear they came from somewhere else.",
+    "effect": "Select an opponent. You may view 1 of their cards after they draw at the end of their turn."
+  },
+  {
+    "slug": "spoofing-hacking",
+    "name": "Spoofing/Hacking",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "Your opponent has been the target of a hacker who exploited a vulnerability and \u201cspoofed\u201d their login data so it appeared they were a legitimate user. The hacker has stolen critical data.",
+    "effect": "Select an opponent. That opponent loses 2 points per round until this card is countered."
+  },
+  {
+    "slug": "spyware",
+    "name": "Spyware",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "An attacker managed to install spyware onto one of your opponent\u2019s computer systems. Spyware covertly transmits information about a system, its data and user activities on that system to an attacker.",
+    "effect": "Select an opponent. That opponent loses 1 point per round for 2 rounds. **Remove** this card from play **after 2 rounds.**"
+  },
+  {
+    "slug": "sql-injection",
+    "name": "SQL Injection",
+    "types": [
+      "Attack",
+      "Code Exploit"
+    ],
+    "description": "The interface that communicates with your opponent\u2019s database does not prevent user input from manipulating how the SQL code is executed. An attacker is using this exploit to manipulate confidential information.",
+    "effect": "Select an opponent. That opponent loses 1 point each round this card is in play, and must discard the top card from their deck at the end of each round this card is in play. Discard this card after 3 rounds."
+  },
+  {
+    "slug": "stack-overflow",
+    "name": "Stack Overflow",
+    "types": [
+      "Event"
+    ],
+    "description": "A program attempted to use more memory than it had available, and has crashed during a critical operation.",
+    "effect": "Select an opponent. That opponent must discard the top 2 cards from their draw pile. **Discard this card** from play afterward."
+  },
+  {
+    "slug": "strategic-planning",
+    "name": "Strategic Planning",
+    "types": [
+      "Event"
+    ],
+    "description": "Planning is an essential component of any cybersecurity effort. Anticipating what might occur and preparing an appropriate response will increase your success rate against potential threats.",
+    "effect": "You may look at the top four cards in your deck and re-arrange them in any order, then discard this card."
+  },
+  {
+    "slug": "syn-flood",
+    "name": "SYN Flood",
+    "types": [
+      "Attack",
+      "Denial"
+    ],
+    "description": "An adversary is sending connection requests that are never completing the \u201cHandshake\u201d with the host. This DoS attack causes open ports to become saturated, disrupting access for legitimate users.",
+    "effect": "Select a **System** or **Server** card that your opponent has in play. That target cannot gain any points while this card is in play. At the beginning of your turn before playing any cards, you may change the target to a different **System** or **Server**."
+  },
+  {
+    "slug": "system-audit",
+    "name": "System Audit",
+    "types": [
+      "Audit",
+      "Defense"
+    ],
+    "description": "Perform audits or scans of systems, permissions, insecure software and insecure configurations to identify potential weaknesses.",
+    "effect": "Return an Asset \u2013 System card you have in play to your hand. For each other Defense you have in play, you may select 1 card in your hand and place it on the bottom of your deck and draw a card. Shuffle your deck and discard this card at the end of the round."
+  },
+  {
+    "slug": "tablet",
+    "name": "Tablet",
+    "types": [
+      "Asset",
+      "Mobile",
+      "System"
+    ],
+    "description": "A mobile device that enables the customer to use mobile applications. This product is larger but similar in style to smartphones.",
+    "effect": "You gain 1 point each round."
+  },
+  {
+    "slug": "technical-information-gathering",
+    "name": "Technical Information Gathering",
+    "types": [
+      "Attack",
+      "Information Gathering"
+    ],
+    "description": "Technical intelligence gathering includes, but is not limited to, understanding the target\u2019s network architecture, IP space, network services, email format and security procedures.",
+    "effect": "When played, add each of your opponent\u2019s Assets and Defenses and subtract the two. The difference will be the number of cards they discard from the top of their deck to a maximum of 4. **Discard this card** at the end of the round."
+  },
+  {
+    "slug": "teslacrypt",
+    "name": "TeslaCrypt",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "TeslaCrypt is an infamous piece of ransomware that has affected critical infrastructures and millions of people.",
+    "effect": "Select an **Asset** type that your opponent has in play. While in play, your opponent can\u2019t generate any points from that Asset type. At the end of scoring, your opponent may choose to discard this card by losing 1 point per Asset affected up to 3 points."
+  },
+  {
+    "slug": "threat-analysis",
+    "name": "Threat Analysis",
+    "types": [
+      "Event"
+    ],
+    "description": "You identified gaps in your cyber defense plans, making notes of all active attacks on your network, and logged this information so that you can update your cyber incident response plan. Updates to this incident response plan can improve your cybersecurity.",
+    "effect": "You gain 1 point for each attack that is affecting you this round. Remove this card from play at the end of this round."
+  },
+  {
+    "slug": "threat-hunter",
+    "name": "Threat Hunter",
+    "types": [
+      "Defense",
+      "Personnel"
+    ],
+    "description": "Working with Booz Allen **Threat Hunter**s, you build a _Hunt Methodology_ to mitigate the impact of advanced threats. Understanding how an attacker operates on a targeted network and what behavior they may exhibit can help to secure your network.",
+    "effect": "When played remove an **Attack \u2013 Code Exploit**, **Hack**, or **Personnel** card from play. This card prevents **Attack \u2013 Hack** cards from affecting you while in play."
+  },
+  {
+    "slug": "trojan-horse",
+    "name": "Trojan Horse",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Your opponent has downloaded a game which is actually a Trojan Horse, a type of malicious software (malware). While the game is played, the program is also sending copies of files to an attacker.",
+    "effect": "Select an opponent. That opponent loses one (1) point per round until this card is countered."
+  },
+  {
+    "slug": "two-factor-authentication",
+    "name": "Two-Factor Authentication",
+    "types": [
+      "Defense",
+      "Policy"
+    ],
+    "description": "Using Two-Factor Authentication (2FA) for access to all sensitive information on your network, in conjunction with other security policies, will contribute to a more secure network.",
+    "effect": "While in play, this card prevents and counters **Attack \u2013 Hack** cards with a value of -1 or -2."
+  },
+  {
+    "slug": "uninstallation",
+    "name": "Uninstallation",
+    "types": [
+      "Event"
+    ],
+    "description": "During regular maintenance, your opponent accidentally **uninstalled** an important piece of software on their systems.",
+    "effect": "Select 1 **Defense \u2013 Software** card that your opponent has in play. Both **this card and the target card** are discarded."
+  },
+  {
+    "slug": "unscheduled-maintenance",
+    "name": "Unscheduled Maintenance",
+    "types": [
+      "Event"
+    ],
+    "description": "Reports of server unresponsiveness and failures have forced your opponent to take one of their servers offline for maintenance.",
+    "effect": "Select an **Asset \u2013 Server** that an opponent has in play. That Asset \u2013 Server and all cards attached to it do not generate any points this round."
+  },
+  {
+    "slug": "unsecured-wifi",
+    "name": "Unsecured WiFi",
+    "types": [
+      "Attack",
+      "Mobile"
+    ],
+    "description": "Public WiFi connections found in stores are desirable by hackers as they allow for access without authentication. This can give them access to all the unsecured devices connected to the network.",
+    "effect": "Select an opponent\u2019s Asset \u2013 Wireless or Mobile Card. That card\u2019s value becomes -1 for 2 turns."
+  },
+  {
+    "slug": "website-defacement",
+    "name": "Website Defacement",
+    "types": [
+      "Attack",
+      "Code Exploit"
+    ],
+    "description": "One of your opponent\u2019s websites was attacked by hacktivists and now displays a message that scares away visitors.",
+    "effect": "Select an Asset that an opponent has in play. That Asset does not generate any points this round, and that player loses 2 points at the end of this round. At the end of this round, remove this card from play."
+  },
+  {
+    "slug": "wireless-router",
+    "name": "Wireless Router",
+    "types": [
+      "Asset",
+      "Wireless Network"
+    ],
+    "description": "This wireless router allows laptop computers and other wireless systems to be connected to the Internet through an Internet Service Provider (ISP).",
+    "effect": "This card allows unlimited Wireless type cards to be put into play."
+  },
+  {
+    "slug": "wireless-sniffing",
+    "name": "Wireless Sniffing",
+    "types": [
+      "Attack",
+      "Information Gathering"
+    ],
+    "description": "An attacker has been listening to the wireless transmissions of your opponent. The attacker has collected critical files and login data and can now access your opponent\u2019s systems.",
+    "effect": "Select a Wireless Network card that your opponent has in play. Your opponent loses two (2) points each round for two (2) rounds. **Remove** this card from play **after two rounds.**"
+  },
+  {
+    "slug": "zero-day-exploit",
+    "name": "Zero-Day Exploit",
+    "types": [
+      "Attack",
+      "Hack"
+    ],
+    "description": "An attacker has used an undocumented security vulnerability, or zero-day exploit, to gain access to your opponent\u2019s network through their affected server. Investigation of this issue has only just begun. No official solutions or patches yet exist to defend against this exploit.",
+    "effect": "Select an **Asset \u2013 Server** that an opponent has in play. That player loses 5 points this round. Discard this card at the end of the round."
+  },
+  {
+    "slug": "zero-trust",
+    "name": "Zero Trust",
+    "types": [
+      "Defense",
+      "Strategy"
+    ],
+    "description": "You include Booz Allen\u2019s **zero-trust approach**, to protect your assets. This is a strategy driven by core principles: assume a breach; never trust, always verify; and allow **least-privileged access** based on needs.",
+    "effect": "When played select 1 **Attack \u2013 Information Gathering** or **Personnel** controlled by your opponent. This card removes and prevents cards with the same subtype from affecting you. **Discard** this card after 3 rounds **or** after playing another Zero Trust."
+  },
+  {
+    "slug": "zeus",
+    "name": "Zeus",
+    "types": [
+      "Attack",
+      "Malware"
+    ],
+    "description": "Zeus is a powerful trojan horse, which steals private data such as passwords, system information, banking credentials and other financial data from the infected system.",
+    "effect": "Select an opponent. Your selected opponent loses 2 points per round until this Trojan Horse is countered."
+  }
+]
