@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="900" viewBox="0 0 640 900" role="img" aria-label="A wave of obsidian static rolling across several neon computer screens.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#160822"/>
+    <stop offset="0.52" stop-color="#3b0d52"/>
+    <stop offset="1" stop-color="#160822"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="43%" r="58%">
+    <stop offset="0" stop-color="#f0abfc" stop-opacity="0.4"/>
+    <stop offset="0.5" stop-color="#8b2bb8" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#160822" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f0abfc"/>
+    <stop offset="1" stop-color="#94a3b8"/>
+  </linearGradient>
+  <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+    <rect width="6" height="1" fill="#ffe8ff" opacity="0.035"/>
+  </pattern>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(0.2)">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#f0abfc" stroke-width="0.5" opacity="0.12"/>
+  </pattern>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="2"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.07"/></feComponentTransfer>
+  </filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><path d="M 26 0 H 614 L 640 26 V 874 L 614 900 H 26 L 0 874 V 26 Z"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="640" height="900" fill="url(#bg)"/>
+  <path d="M 37 -40 L 455 940" stroke="#94a3b8" stroke-width="77" opacity="0.05"/>
+  <rect width="640" height="900" fill="url(#grid)"/>
+  <circle cx="320" cy="420" r="300" fill="url(#halo)"/>
+  <g color="#f0abfc"><path d="M 260 536 L 186 536 L 186 626 L 232 626" fill="none" stroke="currentColor" stroke-width="1.0" opacity="0.19"/><circle cx="232" cy="626" r="1.4" fill="currentColor" opacity="0.5"/><path d="M 551 161 L 641 161 L 641 202 L 668 202 L 668 283 L 640 283" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.21"/><circle cx="640" cy="283" r="2.9" fill="currentColor" opacity="0.5"/><path d="M 593 726 L 703 726 L 703 640 L 762 640 L 762 724" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.27"/><circle cx="762" cy="724" r="1.9" fill="currentColor" opacity="0.5"/><path d="M 65 763 L 163 763 L 163 720" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.23"/><circle cx="163" cy="720" r="1.5" fill="currentColor" opacity="0.5"/><path d="M 455 180 L 490 180 L 490 147 L 429 147" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.20"/><circle cx="429" cy="147" r="2.6" fill="currentColor" opacity="0.5"/><path d="M 403 131 L 485 131 L 485 232 L 448 232" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.13"/><circle cx="448" cy="232" r="1.9" fill="currentColor" opacity="0.5"/><path d="M 380 555 L 275 555 L 275 447 L 314 447 L 314 343 L 383 343" fill="none" stroke="currentColor" stroke-width="1.0" opacity="0.31"/><circle cx="383" cy="343" r="3.3" fill="currentColor" opacity="0.5"/><path d="M 498 311 L 589 311 L 589 395" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.28"/><circle cx="589" cy="395" r="2.7" fill="currentColor" opacity="0.5"/><path d="M 162 534 L 119 534 L 119 462" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.27"/><circle cx="119" cy="462" r="3.8" fill="currentColor" opacity="0.5"/></g>
+  <rect x="34" y="791" width="6" height="10" fill="currentColor" opacity="0.12"/><rect x="60" y="766" width="5" height="42" fill="currentColor" opacity="0.04"/><rect x="86" y="736" width="11" height="62" fill="currentColor" opacity="0.08"/><rect x="112" y="794" width="6" height="30" fill="currentColor" opacity="0.06"/><rect x="138" y="790" width="5" height="20" fill="currentColor" opacity="0.08"/><rect x="164" y="770" width="3" height="37" fill="currentColor" opacity="0.11"/><rect x="190" y="782" width="8" height="57" fill="currentColor" opacity="0.13"/><rect x="216" y="812" width="6" height="83" fill="currentColor" opacity="0.10"/><rect x="242" y="809" width="11" height="96" fill="currentColor" opacity="0.11"/><rect x="268" y="805" width="4" height="87" fill="currentColor" opacity="0.08"/><rect x="294" y="814" width="8" height="67" fill="currentColor" opacity="0.11"/><rect x="320" y="727" width="7" height="25" fill="currentColor" opacity="0.07"/><rect x="346" y="824" width="4" height="24" fill="currentColor" opacity="0.12"/><rect x="372" y="821" width="6" height="57" fill="currentColor" opacity="0.08"/><rect x="398" y="722" width="8" height="12" fill="currentColor" opacity="0.06"/><rect x="424" y="803" width="11" height="42" fill="currentColor" opacity="0.11"/><rect x="450" y="815" width="5" height="91" fill="currentColor" opacity="0.10"/><rect x="476" y="755" width="6" height="19" fill="currentColor" opacity="0.14"/><rect x="502" y="818" width="6" height="62" fill="currentColor" opacity="0.11"/><rect x="528" y="744" width="4" height="76" fill="currentColor" opacity="0.14"/><rect x="554" y="734" width="8" height="15" fill="currentColor" opacity="0.14"/><rect x="580" y="823" width="11" height="16" fill="currentColor" opacity="0.13"/>
+  <circle cx="340" cy="690" r="1.9" fill="#ffe8ff" opacity="0.58"/><circle cx="468" cy="793" r="1.3" fill="#94a3b8" opacity="0.48"/><circle cx="493" cy="454" r="1.8" fill="#94a3b8" opacity="0.29"/><circle cx="354" cy="331" r="0.7" fill="#ffe8ff" opacity="0.31"/><circle cx="510" cy="301" r="0.9" fill="#94a3b8" opacity="0.19"/><circle cx="101" cy="228" r="1.9" fill="#ffe8ff" opacity="0.39"/><circle cx="189" cy="307" r="2.1" fill="#94a3b8" opacity="0.33"/><circle cx="232" cy="269" r="1.2" fill="#ffe8ff" opacity="0.31"/><circle cx="358" cy="430" r="0.8" fill="#ffe8ff" opacity="0.15"/><circle cx="347" cy="358" r="0.9" fill="#ffe8ff" opacity="0.28"/><circle cx="338" cy="445" r="1.7" fill="#ffe8ff" opacity="0.29"/><circle cx="132" cy="184" r="2.0" fill="#94a3b8" opacity="0.52"/><circle cx="530" cy="789" r="0.9" fill="#94a3b8" opacity="0.20"/><circle cx="522" cy="185" r="1.0" fill="#94a3b8" opacity="0.53"/><circle cx="81" cy="818" r="2.0" fill="#94a3b8" opacity="0.34"/><circle cx="258" cy="156" r="1.9" fill="#ffe8ff" opacity="0.38"/><circle cx="168" cy="633" r="1.7" fill="#ffe8ff" opacity="0.17"/><circle cx="546" cy="526" r="2.1" fill="#94a3b8" opacity="0.25"/><circle cx="512" cy="108" r="2.3" fill="#94a3b8" opacity="0.26"/><circle cx="449" cy="274" r="2.2" fill="#ffe8ff" opacity="0.50"/><circle cx="241" cy="711" r="2.1" fill="#94a3b8" opacity="0.52"/><circle cx="188" cy="419" r="1.3" fill="#ffe8ff" opacity="0.30"/><circle cx="211" cy="179" r="1.1" fill="#94a3b8" opacity="0.31"/><circle cx="102" cy="864" r="1.1" fill="#ffe8ff" opacity="0.27"/><circle cx="385" cy="741" r="2.1" fill="#94a3b8" opacity="0.33"/><circle cx="482" cy="282" r="1.8" fill="#ffe8ff" opacity="0.41"/><circle cx="143" cy="283" r="0.7" fill="#ffe8ff" opacity="0.42"/><circle cx="477" cy="318" r="1.6" fill="#ffe8ff" opacity="0.59"/><circle cx="285" cy="602" r="0.8" fill="#ffe8ff" opacity="0.28"/><circle cx="323" cy="602" r="1.6" fill="#ffe8ff" opacity="0.48"/><circle cx="391" cy="155" r="1.6" fill="#94a3b8" opacity="0.44"/><circle cx="111" cy="732" r="1.6" fill="#ffe8ff" opacity="0.25"/><circle cx="118" cy="553" r="2.3" fill="#ffe8ff" opacity="0.42"/><circle cx="529" cy="604" r="0.6" fill="#94a3b8" opacity="0.58"/>
+  <g opacity="0.95" filter="url(#glow)" color="url(#accent)"><ellipse cx="320" cy="420" rx="60" ry="46" fill="none" stroke="currentColor" stroke-width="1.8" opacity="0.40"  transform="rotate(-1 320 420)"/><ellipse cx="320" cy="420" rx="106" ry="58" fill="none" stroke="currentColor" stroke-width="1.9" opacity="0.54"  transform="rotate(15 320 420)"/><ellipse cx="320" cy="420" rx="152" ry="91" fill="none" stroke="currentColor" stroke-width="2.2" opacity="0.52" stroke-dasharray="3 12" transform="rotate(-11 320 420)"/><circle cx="320" cy="420" r="34" fill="currentColor" opacity="0.14"/><circle cx="320" cy="420" r="34" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M 302 420 L 338 420 M 320 402 L 320 438" stroke="currentColor" stroke-width="2" opacity="0.8"/></g>
+  <g color="#94a3b8" opacity="0.35" transform="translate(5 -4)"><ellipse cx="320" cy="420" rx="60" ry="46" fill="none" stroke="currentColor" stroke-width="1.8" opacity="0.40"  transform="rotate(-1 320 420)"/><ellipse cx="320" cy="420" rx="106" ry="58" fill="none" stroke="currentColor" stroke-width="1.9" opacity="0.54"  transform="rotate(15 320 420)"/><ellipse cx="320" cy="420" rx="152" ry="91" fill="none" stroke="currentColor" stroke-width="2.2" opacity="0.52" stroke-dasharray="3 12" transform="rotate(-11 320 420)"/><circle cx="320" cy="420" r="34" fill="currentColor" opacity="0.14"/><circle cx="320" cy="420" r="34" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M 302 420 L 338 420 M 320 402 L 320 438" stroke="currentColor" stroke-width="2" opacity="0.8"/></g>
+  <text x="566" y="238" text-anchor="end" font-family="'Courier New', monospace" font-size="176" font-weight="700" fill="#ffe8ff" opacity="0.055">EA</text>
+  <g font-family="'Courier New', monospace" fill="#ffe8ff">
+    <text x="38" y="58" font-size="12" letter-spacing="4" opacity="0.62">CTD-158</text>
+    <text x="602" y="58" text-anchor="end" font-size="11" letter-spacing="3" opacity="0.5">CROSSOVER</text>
+    <text x="38" y="792" font-size="13" letter-spacing="2.2" opacity="0.88">EVENT · ANOMALY</text>
+    <text x="38" y="818" font-size="10" letter-spacing="1.8" opacity="0.4">SIGNAL BREACH</text>
+    <text x="602" y="792" text-anchor="end" font-size="10" letter-spacing="2" fill="#94a3b8" opacity="0.95">COMMON</text>
+    <text x="602" y="818" text-anchor="end" font-size="10" letter-spacing="2" opacity="0.5">EVENT</text>
+  </g>
+  <path d="M 0 846 H 640" stroke="#ffe8ff" stroke-width="0.7" opacity="0.15"/>
+  <g transform="translate(38 862)" opacity="0.5">
+    <circle cx="0" cy="0" r="3" fill="#94a3b8"/>
+    <circle cx="14" cy="0" r="3" fill="#94a3b8" opacity="0.7"/>
+    <circle cx="28" cy="0" r="3" fill="#94a3b8" opacity="0.4"/>
+  </g>
+  <text x="602" y="866" text-anchor="end" font-family="'Courier New', monospace" font-size="9" letter-spacing="3" fill="#ffe8ff" opacity="0.38">CYBERTHREAT DEFENDER // LAN</text>
+</g>
+<rect width="640" height="900" fill="url(#scan)"/>
+<rect width="640" height="900" filter="url(#grain)" opacity="0.55"/>
+<path d="M 26 0.5 H 614 L 639.5 26 V 874 L 614 899.5 H 26 L 0.5 874 V 26 Z" fill="none" stroke="#f0abfc" stroke-width="1" opacity="0.28"/>
+<path d="M 26 8 H 606 L 632 34" fill="none" stroke="#94a3b8" stroke-width="1.2" opacity="0.5"/>
+<path d="M 26 892 H 606 L 632 866" fill="none" stroke="#94a3b8" stroke-width="1.2" opacity="0.28"/>
+</svg>
