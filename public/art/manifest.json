@@ -1,0 +1,1991 @@
+[
+  {
+    "id": "advanced-persistent-dos",
+    "name": "Advanced Persistent DoS",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/advanced-persistent-dos.svg",
+    "alt": "Advanced Persistent DoS — attack card. Denial archetype. Strike an enemy for 4 network damage. The rival also loses 2 score for 2 rounds."
+  },
+  {
+    "id": "advanced-persistent-threat",
+    "name": "Advanced Persistent Threat",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/advanced-persistent-threat.svg",
+    "alt": "Advanced Persistent Threat — attack card. Hack archetype. Strike an enemy for 5 network damage and drain 4 score."
+  },
+  {
+    "id": "advanced-threat-monitoring",
+    "name": "Advanced Threat Monitoring",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/advanced-threat-monitoring.svg",
+    "alt": "Advanced Threat Monitoring — defense card. Service archetype. Counter recon, breach attacks while armed (1 charge)."
+  },
+  {
+    "id": "all-in-one-computer",
+    "name": "All-in-One Computer",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/all-in-one-computer.svg",
+    "alt": "All-in-One Computer — asset card. System archetype. Deploy a System asset. Scores 1 at round end."
+  },
+  {
+    "id": "alureon-trojan",
+    "name": "Alureon Trojan",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/alureon-trojan.svg",
+    "alt": "Alureon Trojan — attack card. Malware archetype. Take an enemy asset offline for 2 rounds. Its controller takes 1 network damage."
+  },
+  {
+    "id": "anti-malware-not-updated",
+    "name": "Anti-Malware Not Updated",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/anti-malware-not-updated.svg",
+    "alt": "Anti-Malware Not Updated — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "anti-malware-virus",
+    "name": "Anti-Malware/Virus",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/anti-malware-virus.svg",
+    "alt": "Anti-Malware/Virus — defense card. Software archetype. Counter malware, exploit attacks while armed (1 charge)."
+  },
+  {
+    "id": "application-rootkit",
+    "name": "Application Rootkit",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/application-rootkit.svg",
+    "alt": "Application Rootkit — attack card. Malware archetype. Strike an enemy for 4 network damage."
+  },
+  {
+    "id": "attend-security-conference",
+    "name": "Attend Security Conference",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/attend-security-conference.svg",
+    "alt": "Attend Security Conference — event card. Event archetype. Draw 3 cards."
+  },
+  {
+    "id": "backup-failure",
+    "name": "Backup Failure",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/backup-failure.svg",
+    "alt": "Backup Failure — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "backup-power-generator",
+    "name": "Backup Power Generator",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/backup-power-generator.svg",
+    "alt": "Backup Power Generator — defense card. Defense archetype. Counter denial attacks while armed (1 charge)."
+  },
+  {
+    "id": "binary-search",
+    "name": "Binary Search",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/binary-search.svg",
+    "alt": "Binary Search — event card. Event archetype. Draw 2 cards."
+  },
+  {
+    "id": "blue-team",
+    "name": "Blue Team",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/blue-team.svg",
+    "alt": "Blue Team — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "bluesnarfing",
+    "name": "Bluesnarfing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/bluesnarfing.svg",
+    "alt": "Bluesnarfing — attack card. Mobile archetype. Strike an enemy for 4 network damage and drain 1 score."
+  },
+  {
+    "id": "boot-integrity",
+    "name": "Boot Integrity",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/boot-integrity.svg",
+    "alt": "Boot Integrity — defense card. Defense archetype. Counter personnel attacks while armed (1 charge)."
+  },
+  {
+    "id": "booz-allen-dark-labs",
+    "name": "Booz Allen Dark Labs",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/booz-allen-dark-labs.svg",
+    "alt": "Booz Allen Dark Labs — asset card. Service archetype. Deploy a Service asset. Scores 1 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "budget-cuts",
+    "name": "Budget Cuts",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/budget-cuts.svg",
+    "alt": "Budget Cuts — event card. Event archetype. Destroy one enemy asset of your choice."
+  },
+  {
+    "id": "budget-increased",
+    "name": "Budget Increased",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/budget-increased.svg",
+    "alt": "Budget Increased — event card. Upgrade archetype. Gain 2 score."
+  },
+  {
+    "id": "buffer-overflow",
+    "name": "Buffer Overflow",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/buffer-overflow.svg",
+    "alt": "Buffer Overflow — attack card. Code Exploit archetype. Strike an enemy for 5 network damage and drain 3 score."
+  },
+  {
+    "id": "cert",
+    "name": "CERT",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/cert.svg",
+    "alt": "CERT — event card. Event archetype. Gain 1 score."
+  },
+  {
+    "id": "ciso",
+    "name": "CISO",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/ciso.svg",
+    "alt": "CISO — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "compromised-user-account",
+    "name": "Compromised User Account",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/compromised-user-account.svg",
+    "alt": "Compromised User Account — attack card. Hack archetype. Strike an enemy for 6 network damage."
+  },
+  {
+    "id": "crowdstrike-falcon-overwatch",
+    "name": "CrowdStrike Falcon OverWatch",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/crowdstrike-falcon-overwatch.svg",
+    "alt": "CrowdStrike Falcon OverWatch — defense card. Service archetype. Counter personnel, recon, breach attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "crowdstrike-falcon-prevent",
+    "name": "CrowdStrike Falcon Prevent",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/crowdstrike-falcon-prevent.svg",
+    "alt": "CrowdStrike Falcon Prevent — defense card. Software archetype. Counter malware, hack, exploit attacks while armed (1 charge)."
+  },
+  {
+    "id": "cryptolocker",
+    "name": "CryptoLocker",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/cryptolocker.svg",
+    "alt": "CryptoLocker — attack card. Malware archetype. Strike an enemy for 4 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "cyber-risk-analyst",
+    "name": "Cyber Risk Analyst",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/cyber-risk-analyst.svg",
+    "alt": "Cyber Risk Analyst — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "cyber-threat-analysis",
+    "name": "Cyber Threat Analysis",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/cyber-threat-analysis.svg",
+    "alt": "Cyber Threat Analysis — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "cyberpatriot",
+    "name": "CyberPatriot",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/cyberpatriot.svg",
+    "alt": "CyberPatriot — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "data-backup",
+    "name": "Data Backup",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/data-backup.svg",
+    "alt": "Data Backup — asset card. Data archetype. Deploy a Data asset. Scores 1 at round end."
+  },
+  {
+    "id": "data-care",
+    "name": "Data Care",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/data-care.svg",
+    "alt": "Data Care — defense card. Policy archetype. Counter phishing, social attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "data-destruction",
+    "name": "Data Destruction",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/data-destruction.svg",
+    "alt": "Data Destruction — attack card. Data Breach archetype. Take an enemy asset offline for 1 round. Its controller takes 3 network damage."
+  },
+  {
+    "id": "data-disposal-policy",
+    "name": "Data Disposal Policy",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/data-disposal-policy.svg",
+    "alt": "Data Disposal Policy — defense card. Policy archetype. Counter breach, social, phishing attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "data-driven-cybersecurity",
+    "name": "Data Driven Cybersecurity",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/data-driven-cybersecurity.svg",
+    "alt": "Data Driven Cybersecurity — defense card. Strategy archetype. Counter social, phishing attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "data-exfiltration",
+    "name": "Data Exfiltration",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/data-exfiltration.svg",
+    "alt": "Data Exfiltration — attack card. Data Breach archetype. Take an enemy asset offline for 1 round. Its controller takes 3 network damage."
+  },
+  {
+    "id": "database-server",
+    "name": "Database Server",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/database-server.svg",
+    "alt": "Database Server — asset card. Server archetype. Deploy a Server asset. Scores 1 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "deceptive-phishing",
+    "name": "Deceptive Phishing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/deceptive-phishing.svg",
+    "alt": "Deceptive Phishing — attack card. Phishing archetype. Strike an enemy for 6 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "dedicated-server",
+    "name": "Dedicated Server",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/dedicated-server.svg",
+    "alt": "Dedicated Server — asset card. Server archetype. Deploy a Server asset. Scores 2 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "defense-in-depth",
+    "name": "Defense In Depth",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/defense-in-depth.svg",
+    "alt": "Defense In Depth — defense card. Policy archetype. Counter social, phishing attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "denial-of-service-dos",
+    "name": "Denial of Service (DoS)",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/denial-of-service-dos.svg",
+    "alt": "Denial of Service (DoS) — attack card. Denial archetype. Take an enemy asset offline for 1 round. Its controller takes 3 network damage."
+  },
+  {
+    "id": "desktop-computer",
+    "name": "Desktop Computer",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/desktop-computer.svg",
+    "alt": "Desktop Computer — asset card. System archetype. Deploy a System asset. Scores 1 at round end."
+  },
+  {
+    "id": "digital-forensic-examiner",
+    "name": "Digital Forensic Examiner",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/digital-forensic-examiner.svg",
+    "alt": "Digital Forensic Examiner — defense card. Personnel archetype. Counter personnel, social attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "digital-media-archive",
+    "name": "Digital Media Archive",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/digital-media-archive.svg",
+    "alt": "Digital Media Archive — asset card. Data archetype. Deploy a Data asset. Scores 1 at round end."
+  },
+  {
+    "id": "drive-by-download",
+    "name": "Drive-By Download",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/drive-by-download.svg",
+    "alt": "Drive-By Download — attack card. Code Exploit archetype. Strike an enemy for 3 network damage."
+  },
+  {
+    "id": "dumpster-dive",
+    "name": "Dumpster Dive",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/dumpster-dive.svg",
+    "alt": "Dumpster Dive — attack card. Data Breach archetype. Strike an enemy for 2 network damage and drain 2 score."
+  },
+  {
+    "id": "encryption",
+    "name": "Encryption",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/encryption.svg",
+    "alt": "Encryption — defense card. Encryption archetype. Counter recon, breach attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "enhanced-threat-protection",
+    "name": "Enhanced Threat Protection",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/enhanced-threat-protection.svg",
+    "alt": "Enhanced Threat Protection — defense card. Service archetype. Counter phishing, social, recon attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "extreme-overheating",
+    "name": "Extreme Overheating",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/extreme-overheating.svg",
+    "alt": "Extreme Overheating — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "failed-certification",
+    "name": "Failed Certification",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/failed-certification.svg",
+    "alt": "Failed Certification — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "filter-network-traffic",
+    "name": "Filter Network Traffic",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/filter-network-traffic.svg",
+    "alt": "Filter Network Traffic — defense card. Defense archetype. Counter malware attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "financial-data",
+    "name": "Financial Data",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/financial-data.svg",
+    "alt": "Financial Data — asset card. Data archetype. Deploy a Data asset. Scores 1 at round end."
+  },
+  {
+    "id": "firewall-rules-not-updated",
+    "name": "Firewall Rules Not Updated",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/firewall-rules-not-updated.svg",
+    "alt": "Firewall Rules Not Updated — event card. Event archetype. Drain 2 score from an enemy."
+  },
+  {
+    "id": "firewall",
+    "name": "Firewall",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/firewall.svg",
+    "alt": "Firewall — defense card. Hardware archetype. Counter hack, denial attacks while armed (1 charge)."
+  },
+  {
+    "id": "footprinting",
+    "name": "Footprinting",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/footprinting.svg",
+    "alt": "Footprinting — attack card. Information Gathering archetype. Strike an enemy for 2 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "forgot-to-patch-os",
+    "name": "Forgot To Patch OS",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/forgot-to-patch-os.svg",
+    "alt": "Forgot To Patch OS — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "hacktivist",
+    "name": "Hacktivist",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/hacktivist.svg",
+    "alt": "Hacktivist — attack card. Personnel archetype. Strike an enemy for 4 network damage. The rival also loses 2 score for 2 rounds."
+  },
+  {
+    "id": "hardware-failure",
+    "name": "Hardware Failure",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/hardware-failure.svg",
+    "alt": "Hardware Failure — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "honeypot",
+    "name": "Honeypot",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "legendary",
+    "art": "/art/cards/honeypot.svg",
+    "alt": "Honeypot — defense card. Defense archetype. Counter exploit, breach attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "host-based-firewall",
+    "name": "Host-based Firewall",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/host-based-firewall.svg",
+    "alt": "Host-based Firewall — defense card. Software archetype. Counter denial, malware, exploit attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "hostile-screen-capture",
+    "name": "Hostile Screen Capture",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/hostile-screen-capture.svg",
+    "alt": "Hostile Screen Capture — attack card. Information Gathering archetype. Take an enemy asset offline for 2 rounds. Its controller takes 2 network damage."
+  },
+  {
+    "id": "hyperjacking",
+    "name": "Hyperjacking",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/hyperjacking.svg",
+    "alt": "Hyperjacking — attack card. Hack archetype. Strike an enemy for 2 network damage."
+  },
+  {
+    "id": "i-love-you-virus",
+    "name": "“I Love You” Virus",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/i-love-you-virus.svg",
+    "alt": "“I Love You” Virus — attack card. Malware archetype. Strike an enemy for 3 network damage. The rival also loses 1 score for 4 rounds."
+  },
+  {
+    "id": "information-security-analyst",
+    "name": "Information Security Analyst",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "legendary",
+    "art": "/art/cards/information-security-analyst.svg",
+    "alt": "Information Security Analyst — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "information-security-specialist",
+    "name": "Information Security Specialist",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/information-security-specialist.svg",
+    "alt": "Information Security Specialist — defense card. Personnel archetype. Counter malware, social, personnel attacks while armed (1 charge)."
+  },
+  {
+    "id": "information-sharing",
+    "name": "Information Sharing",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/information-sharing.svg",
+    "alt": "Information Sharing — defense card. Policy archetype. Counter hack, exploit, social attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "insider-threat",
+    "name": "Insider Threat",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/insider-threat.svg",
+    "alt": "Insider Threat — attack card. Personnel archetype. Strike an enemy for 4 network damage and drain 2 score."
+  },
+  {
+    "id": "intelligence-driven-defense",
+    "name": "Intelligence Driven Defense",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/intelligence-driven-defense.svg",
+    "alt": "Intelligence Driven Defense — defense card. Policy archetype. Counter social, phishing attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "internal-spear-phishing",
+    "name": "Internal Spear Phishing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/internal-spear-phishing.svg",
+    "alt": "Internal Spear Phishing — attack card. Phishing archetype. Strike an enemy for 5 network damage."
+  },
+  {
+    "id": "intrusion-prevention",
+    "name": "Intrusion Prevention",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/intrusion-prevention.svg",
+    "alt": "Intrusion Prevention — defense card. IPS archetype. Counter malware, hack, denial attacks while armed (1 charge)."
+  },
+  {
+    "id": "isao-membership",
+    "name": "ISAO Membership",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/isao-membership.svg",
+    "alt": "ISAO Membership — asset card. Asset archetype. Deploy a Asset asset. Scores 1 at round end."
+  },
+  {
+    "id": "isp-connection",
+    "name": "ISP Connection",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/isp-connection.svg",
+    "alt": "ISP Connection — asset card. ISP archetype. Deploy a ISP asset. Scores 1 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "it-auditor",
+    "name": "IT Auditor",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/it-auditor.svg",
+    "alt": "IT Auditor — defense card. Personnel archetype. Counter personnel, social attacks while armed (2 charges)."
+  },
+  {
+    "id": "it-security-consultant",
+    "name": "IT Security Consultant",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/it-security-consultant.svg",
+    "alt": "IT Security Consultant — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "it-security-engineer",
+    "name": "IT Security Engineer",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/it-security-engineer.svg",
+    "alt": "IT Security Engineer — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "jackal",
+    "name": "JACKAL",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/jackal.svg",
+    "alt": "JACKAL — attack card. Adversary archetype. Strike an enemy for 3 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "job-fair",
+    "name": "Job Fair",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/job-fair.svg",
+    "alt": "Job Fair — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "laptop-computer",
+    "name": "Laptop Computer",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/laptop-computer.svg",
+    "alt": "Laptop Computer — asset card. System archetype. Deploy a System asset. Scores 1 at round end."
+  },
+  {
+    "id": "malicious-app",
+    "name": "Malicious App",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/malicious-app.svg",
+    "alt": "Malicious App — attack card. Mobile archetype. Take an enemy asset offline for 2 rounds. Its controller takes 3 network damage."
+  },
+  {
+    "id": "malware-analyst",
+    "name": "Malware Analyst",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/malware-analyst.svg",
+    "alt": "Malware Analyst — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "memory-leak",
+    "name": "Memory Leak",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/memory-leak.svg",
+    "alt": "Memory Leak — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "mini-pc",
+    "name": "Mini PC",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/mini-pc.svg",
+    "alt": "Mini PC — asset card. System archetype. Deploy a System asset. Scores 1 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "mitre-attck",
+    "name": "MITRE ATT&CK",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/mitre-attck.svg",
+    "alt": "MITRE ATT&CK — defense card. Resource archetype. Counter denial attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "mobile-device-management",
+    "name": "Mobile Device Management",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/mobile-device-management.svg",
+    "alt": "Mobile Device Management — defense card. Software archetype. Counter malware, exploit attacks while armed (1 charge)."
+  },
+  {
+    "id": "netbleed",
+    "name": "Netbleed",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/netbleed.svg",
+    "alt": "Netbleed — attack card. Code Exploit archetype. Strike an enemy for 5 network damage and drain 3 score."
+  },
+  {
+    "id": "network-dos",
+    "name": "Network DoS",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/network-dos.svg",
+    "alt": "Network DoS — attack card. Denial archetype. Strike an enemy for 2 network damage."
+  },
+  {
+    "id": "office-laptop",
+    "name": "Office Laptop",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "legendary",
+    "art": "/art/cards/office-laptop.svg",
+    "alt": "Office Laptop — asset card. System archetype. Deploy a System asset. Scores 1 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "os-update-patch",
+    "name": "OS Update/Patch",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/os-update-patch.svg",
+    "alt": "OS Update/Patch — defense card. Software Update archetype. Counter exploit, malware attacks while armed (1 charge)."
+  },
+  {
+    "id": "outdated-policy",
+    "name": "Outdated Policy",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/outdated-policy.svg",
+    "alt": "Outdated Policy — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "password-cracked",
+    "name": "Password Cracked",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/password-cracked.svg",
+    "alt": "Password Cracked — attack card. Hack archetype. Strike an enemy for 2 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "penetration-tester",
+    "name": "Penetration Tester",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/penetration-tester.svg",
+    "alt": "Penetration Tester — defense card. Personnel archetype. Counter exploit, personnel, social attacks while armed (1 charge)."
+  },
+  {
+    "id": "phishing-training",
+    "name": "Phishing Training",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/phishing-training.svg",
+    "alt": "Phishing Training — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "phishing",
+    "name": "Phishing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/phishing.svg",
+    "alt": "Phishing — attack card. Phishing archetype. Strike an enemy for 6 network damage. The rival also loses 2 score for 2 rounds."
+  },
+  {
+    "id": "ping-flood",
+    "name": "Ping Flood",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/ping-flood.svg",
+    "alt": "Ping Flood — attack card. Denial archetype. Take an enemy asset offline for 2 rounds. Its controller takes 3 network damage."
+  },
+  {
+    "id": "ping-of-death",
+    "name": "Ping of Death",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/ping-of-death.svg",
+    "alt": "Ping of Death — attack card. Denial archetype. Take an enemy asset offline for 2 rounds. Its controller takes 1 network damage."
+  },
+  {
+    "id": "play-ransomware",
+    "name": "PLAY Ransomware",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/play-ransomware.svg",
+    "alt": "PLAY Ransomware — attack card. Malware archetype. Take an enemy asset offline for 2 rounds. Its controller takes 2 network damage."
+  },
+  {
+    "id": "polymorphic-malware",
+    "name": "Polymorphic Malware",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/polymorphic-malware.svg",
+    "alt": "Polymorphic Malware — attack card. Malware archetype. Strike an enemy for 3 network damage and drain 2 score."
+  },
+  {
+    "id": "poor-encryption-key",
+    "name": "Poor Encryption Key",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/poor-encryption-key.svg",
+    "alt": "Poor Encryption Key — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "power-outage",
+    "name": "Power Outage",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/power-outage.svg",
+    "alt": "Power Outage — event card. Event archetype. Drain 1 score from an enemy."
+  },
+  {
+    "id": "privacy-violation",
+    "name": "Privacy Violation",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "legendary",
+    "art": "/art/cards/privacy-violation.svg",
+    "alt": "Privacy Violation — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "purple-team",
+    "name": "Purple Team",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/purple-team.svg",
+    "alt": "Purple Team — defense card. Personnel archetype. Counter social, personnel attacks while armed (2 charges)."
+  },
+  {
+    "id": "rackspace-managed-services",
+    "name": "Rackspace Managed Services",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/rackspace-managed-services.svg",
+    "alt": "Rackspace Managed Services — defense card. Defense archetype. Counter malware attacks while armed (1 charge)."
+  },
+  {
+    "id": "ransomware",
+    "name": "Ransomware",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/ransomware.svg",
+    "alt": "Ransomware — attack card. Malware archetype. Take an enemy asset offline for 1 round. Its controller takes 3 network damage."
+  },
+  {
+    "id": "recess-spider",
+    "name": "RECESS SPIDER",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/recess-spider.svg",
+    "alt": "RECESS SPIDER — attack card. Adversary archetype. Strike an enemy for 2 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "recruitment-drive",
+    "name": "Recruitment Drive",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/recruitment-drive.svg",
+    "alt": "Recruitment Drive — event card. Event archetype. Draw 2 cards."
+  },
+  {
+    "id": "red-team",
+    "name": "Red Team",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/red-team.svg",
+    "alt": "Red Team — defense card. Personnel archetype. Counter social, personnel attacks while armed (1 charge)."
+  },
+  {
+    "id": "redundant-system",
+    "name": "Redundant System",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/redundant-system.svg",
+    "alt": "Redundant System — defense card. Defense archetype. Counter malware attacks while armed (1 charge)."
+  },
+  {
+    "id": "resource-hijacking",
+    "name": "Resource Hijacking",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/resource-hijacking.svg",
+    "alt": "Resource Hijacking — attack card. Hack archetype. Take an enemy asset offline for 1 round. Its controller takes 5 network damage."
+  },
+  {
+    "id": "rogue-employee",
+    "name": "Rogue Employee",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/rogue-employee.svg",
+    "alt": "Rogue Employee — attack card. Personnel archetype. Strike an enemy for 5 network damage and drain 2 score."
+  },
+  {
+    "id": "rootkit-malware-loader",
+    "name": "Rootkit Malware Loader",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/rootkit-malware-loader.svg",
+    "alt": "Rootkit Malware Loader — attack card. Malware archetype. Strike an enemy for 4 network damage."
+  },
+  {
+    "id": "scattered-spider",
+    "name": "SCATTERED SPIDER",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/scattered-spider.svg",
+    "alt": "SCATTERED SPIDER — attack card. Adversary archetype. Strike an enemy for 3 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "scholarship-for-service",
+    "name": "Scholarship for Service",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/scholarship-for-service.svg",
+    "alt": "Scholarship for Service — asset card. Asset archetype. Deploy a Asset asset. Scores 2 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "scientific-research",
+    "name": "Scientific Research",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/scientific-research.svg",
+    "alt": "Scientific Research — asset card. Data archetype. Deploy a Data asset. Scores 1 at round end."
+  },
+  {
+    "id": "search-engine",
+    "name": "Search Engine",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/search-engine.svg",
+    "alt": "Search Engine — asset card. Asset archetype. Deploy a Asset asset. Scores 1 at round end."
+  },
+  {
+    "id": "secure-coding-practices",
+    "name": "Secure Coding Practices",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/secure-coding-practices.svg",
+    "alt": "Secure Coding Practices — defense card. Policy archetype. Counter exploit, social, phishing attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "security-manager",
+    "name": "Security Manager",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/security-manager.svg",
+    "alt": "Security Manager — asset card. Personnel archetype. Deploy a Personnel asset. Scores 1 at round end."
+  },
+  {
+    "id": "security-operations-center",
+    "name": "Security Operations Center",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/security-operations-center.svg",
+    "alt": "Security Operations Center — defense card. Service archetype. Counter recon, breach attacks while armed (1 charge)."
+  },
+  {
+    "id": "security-systems-administrator",
+    "name": "Security Systems Administrator",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/security-systems-administrator.svg",
+    "alt": "Security Systems Administrator — defense card. Personnel archetype. Counter phishing, social, hack attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "security-training",
+    "name": "Security Training",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/security-training.svg",
+    "alt": "Security Training — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "sirefef-trojan",
+    "name": "Sirefef Trojan",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/sirefef-trojan.svg",
+    "alt": "Sirefef Trojan — attack card. Malware archetype. Strike an enemy for 2 network damage."
+  },
+  {
+    "id": "smartphone",
+    "name": "Smartphone",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/smartphone.svg",
+    "alt": "Smartphone — asset card. Mobile archetype. Deploy a Mobile asset. Scores 1 at round end."
+  },
+  {
+    "id": "smishing",
+    "name": "Smishing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/smishing.svg",
+    "alt": "Smishing — attack card. Phishing archetype. Strike an enemy for 4 network damage and drain 2 score."
+  },
+  {
+    "id": "snapattack",
+    "name": "SnapAttack",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/snapattack.svg",
+    "alt": "SnapAttack — defense card. Software archetype. Counter malware, exploit attacks while armed (1 charge). Grants 1 armor."
+  },
+  {
+    "id": "soar",
+    "name": "SOAR",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/soar.svg",
+    "alt": "SOAR — defense card. Software archetype. Counter malware, exploit attacks while armed (1 charge)."
+  },
+  {
+    "id": "software-data-corruption",
+    "name": "Software Data Corruption",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/software-data-corruption.svg",
+    "alt": "Software Data Corruption — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "spear-phishing",
+    "name": "Spear Phishing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/spear-phishing.svg",
+    "alt": "Spear Phishing — attack card. Phishing archetype. Strike an enemy for 4 network damage. The rival also loses 2 score for 2 rounds."
+  },
+  {
+    "id": "spoofed-scan",
+    "name": "Spoofed Scan",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/spoofed-scan.svg",
+    "alt": "Spoofed Scan — attack card. Information Gathering archetype. Strike an enemy for 2 network damage."
+  },
+  {
+    "id": "spoofing-hacking",
+    "name": "Spoofing/Hacking",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/spoofing-hacking.svg",
+    "alt": "Spoofing/Hacking — attack card. Hack archetype. Strike an enemy for 4 network damage. The rival also loses 2 score for 4 rounds."
+  },
+  {
+    "id": "spyware",
+    "name": "Spyware",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/spyware.svg",
+    "alt": "Spyware — attack card. Malware archetype. Strike an enemy for 3 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "sql-injection",
+    "name": "SQL Injection",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/sql-injection.svg",
+    "alt": "SQL Injection — attack card. Code Exploit archetype. Strike an enemy for 6 network damage. The rival also loses 1 score for 2 rounds."
+  },
+  {
+    "id": "stack-overflow",
+    "name": "Stack Overflow",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/stack-overflow.svg",
+    "alt": "Stack Overflow — event card. Event archetype. Draw 2 cards."
+  },
+  {
+    "id": "strategic-planning",
+    "name": "Strategic Planning",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/strategic-planning.svg",
+    "alt": "Strategic Planning — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "syn-flood",
+    "name": "SYN Flood",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/syn-flood.svg",
+    "alt": "SYN Flood — attack card. Denial archetype. Take an enemy asset offline for 2 rounds. Its controller takes 3 network damage."
+  },
+  {
+    "id": "system-audit",
+    "name": "System Audit",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/system-audit.svg",
+    "alt": "System Audit — defense card. Audit archetype. Counter recon, breach attacks while armed (1 charge)."
+  },
+  {
+    "id": "tablet",
+    "name": "Tablet",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/tablet.svg",
+    "alt": "Tablet — asset card. Mobile archetype. Deploy a Mobile asset. Scores 1 at round end."
+  },
+  {
+    "id": "technical-information-gathering",
+    "name": "Technical Information Gathering",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/technical-information-gathering.svg",
+    "alt": "Technical Information Gathering — attack card. Information Gathering archetype. Strike an enemy for 2 network damage."
+  },
+  {
+    "id": "teslacrypt",
+    "name": "TeslaCrypt",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/teslacrypt.svg",
+    "alt": "TeslaCrypt — attack card. Malware archetype. Take an enemy asset offline for 1 round. Its controller takes 3 network damage."
+  },
+  {
+    "id": "threat-analysis",
+    "name": "Threat Analysis",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/threat-analysis.svg",
+    "alt": "Threat Analysis — event card. Event archetype. Gain 2 score."
+  },
+  {
+    "id": "threat-hunter",
+    "name": "Threat Hunter",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/threat-hunter.svg",
+    "alt": "Threat Hunter — defense card. Personnel archetype. Counter hack, exploit, personnel attacks while armed (1 charge)."
+  },
+  {
+    "id": "trojan-horse",
+    "name": "Trojan Horse",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/trojan-horse.svg",
+    "alt": "Trojan Horse — attack card. Malware archetype. Strike an enemy for 2 network damage. The rival also loses 1 score for 4 rounds."
+  },
+  {
+    "id": "two-factor-authentication",
+    "name": "Two-Factor Authentication",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/two-factor-authentication.svg",
+    "alt": "Two-Factor Authentication — defense card. Policy archetype. Counter hack, social, phishing attacks while armed (1 charge)."
+  },
+  {
+    "id": "uninstallation",
+    "name": "Uninstallation",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/uninstallation.svg",
+    "alt": "Uninstallation — event card. Event archetype. Gain 2 credits and draw 1 card."
+  },
+  {
+    "id": "unscheduled-maintenance",
+    "name": "Unscheduled Maintenance",
+    "type": "event",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/unscheduled-maintenance.svg",
+    "alt": "Unscheduled Maintenance — event card. Event archetype. Gain 2 score."
+  },
+  {
+    "id": "unsecured-wifi",
+    "name": "Unsecured WiFi",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/unsecured-wifi.svg",
+    "alt": "Unsecured WiFi — attack card. Mobile archetype. Take an enemy asset offline for 1 round. Its controller takes 1 network damage."
+  },
+  {
+    "id": "website-defacement",
+    "name": "Website Defacement",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/website-defacement.svg",
+    "alt": "Website Defacement — attack card. Code Exploit archetype. Take an enemy asset offline for 1 round. Its controller takes 1 network damage."
+  },
+  {
+    "id": "wireless-router",
+    "name": "Wireless Router",
+    "type": "asset",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/wireless-router.svg",
+    "alt": "Wireless Router — asset card. Wireless Network archetype. Deploy a Wireless Network asset. Scores 1 at round end and pays 1 credit each turn."
+  },
+  {
+    "id": "wireless-sniffing",
+    "name": "Wireless Sniffing",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "common",
+    "art": "/art/cards/wireless-sniffing.svg",
+    "alt": "Wireless Sniffing — attack card. Information Gathering archetype. Strike an enemy for 4 network damage. The rival also loses 2 score for 2 rounds."
+  },
+  {
+    "id": "zero-day-exploit",
+    "name": "Zero-Day Exploit",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "epic",
+    "art": "/art/cards/zero-day-exploit.svg",
+    "alt": "Zero-Day Exploit — attack card. Hack archetype. Take an enemy asset offline for 1 round. Its controller takes 4 network damage."
+  },
+  {
+    "id": "zero-trust",
+    "name": "Zero Trust",
+    "type": "defense",
+    "expansion": "classic",
+    "rarity": "uncommon",
+    "art": "/art/cards/zero-trust.svg",
+    "alt": "Zero Trust — defense card. Strategy archetype. Counter breach, personnel, recon attacks while armed (1 charge)."
+  },
+  {
+    "id": "zeus",
+    "name": "Zeus",
+    "type": "attack",
+    "expansion": "classic",
+    "rarity": "rare",
+    "art": "/art/cards/zeus.svg",
+    "alt": "Zeus — attack card. Malware archetype. Strike an enemy for 4 network damage. The rival also loses 2 score for 2 rounds."
+  },
+  {
+    "id": "bonzi-buddy",
+    "name": "Bonzi Buddy",
+    "type": "asset",
+    "expansion": "crossover",
+    "rarity": "mythic",
+    "art": "/art/heroes/bonzi.png",
+    "alt": "Bonzi Buddy, a purple cartoon gorilla virtual assistant, leaning out of a CRT monitor with a glowing cookie."
+  },
+  {
+    "id": "bonzi-toolbar",
+    "name": "Bonzi's Toolbar",
+    "type": "event",
+    "expansion": "crossover",
+    "rarity": "common",
+    "art": "/art/cards/bonzi-toolbar.svg",
+    "alt": "A stack of translucent browser toolbars multiplying into infinity."
+  },
+  {
+    "id": "verity-minecraft-mod",
+    "name": "Verity • Minecraft Mod",
+    "type": "defense",
+    "expansion": "crossover",
+    "rarity": "mythic",
+    "art": "/art/cards/verity-minecraft-mod.svg",
+    "alt": "Verity, a smiling yellow floating orb, glowing in a dark voxel forest."
+  },
+  {
+    "id": "verity-flashlight",
+    "name": "Verity's Flashlight",
+    "type": "defense",
+    "expansion": "crossover",
+    "rarity": "rare",
+    "art": "/art/cards/verity-flashlight.svg",
+    "alt": "A flashlight beam cutting through a dark voxel forest, illuminating a distant yellow glow."
+  },
+  {
+    "id": "darkity-minecraft-mod",
+    "name": "Darkity • Minecraft Mod",
+    "type": "attack",
+    "expansion": "crossover",
+    "rarity": "mythic",
+    "art": "/art/heroes/darkity.png",
+    "alt": "Darkity, a black glitching polyhedron with a cracked porcelain smile and a single cyan eye."
+  },
+  {
+    "id": "darkity-corrupted-chunk",
+    "name": "Darkity's Corrupted Chunk",
+    "type": "event",
+    "expansion": "crossover",
+    "rarity": "rare",
+    "art": "/art/cards/darkity-corrupted-chunk.svg",
+    "alt": "A corrupted Minecraft chunk folding into black static and violet glitch shards."
+  },
+  {
+    "id": "kirkity",
+    "name": "Kirkity",
+    "type": "defense",
+    "expansion": "crossover",
+    "rarity": "legendary",
+    "art": "/art/heroes/kirkity.png",
+    "alt": "Kirkity, an original fictional mechanical cyber-fox in a cowboy hat, guarding a neon router."
+  },
+  {
+    "id": "kirkity-private-property",
+    "name": "Kirkity's Private Property",
+    "type": "defense",
+    "expansion": "crossover",
+    "rarity": "rare",
+    "art": "/art/cards/kirkity-private-property.svg",
+    "alt": "A neon porch sign protecting a router with a glowing no-soliciting glyph."
+  },
+  {
+    "id": "verity-knows",
+    "name": "Verity Knows",
+    "type": "event",
+    "expansion": "crossover",
+    "rarity": "epic",
+    "art": "/art/cards/verity-knows.svg",
+    "alt": "A yellow orb projecting ghostly lines of private chat over a dark room."
+  },
+  {
+    "id": "obsidian-static",
+    "name": "Obsidian Static",
+    "type": "event",
+    "expansion": "crossover",
+    "rarity": "common",
+    "art": "/art/cards/obsidian-static.svg",
+    "alt": "A wave of obsidian static rolling across several neon computer screens."
+  },
+  {
+    "id": "friend-request",
+    "name": "Friend Request From Nobody",
+    "type": "attack",
+    "expansion": "crossover",
+    "rarity": "uncommon",
+    "art": "/art/cards/friend-request.svg",
+    "alt": "A glowing friend request from an avatar made of static."
+  },
+  {
+    "id": "yellow-orb-anomaly",
+    "name": "Yellow Orb Anomaly",
+    "type": "attack",
+    "expansion": "crossover",
+    "rarity": "rare",
+    "art": "/art/cards/yellow-orb-anomaly.svg",
+    "alt": "A yellow orb suspended in dark static with a faint smile."
+  },
+  {
+    "id": "bonzi-cookie",
+    "name": "Bonzi's Cookie",
+    "type": "event",
+    "expansion": "crossover",
+    "rarity": "uncommon",
+    "art": "/art/cards/bonzi-cookie.svg",
+    "alt": "A glowing purple cookie covered in tiny tracking-pixel crumbs."
+  },
+  {
+    "id": "zero-trust-overhaul",
+    "name": "Zero Trust Overhaul",
+    "type": "defense",
+    "expansion": "frontier",
+    "rarity": "legendary",
+    "art": "/art/cards/zero-trust-overhaul.svg",
+    "alt": "A layered zero-trust network diagram rendered in electric cyan glass."
+  },
+  {
+    "id": "cold-storage",
+    "name": "Cold Storage",
+    "type": "asset",
+    "expansion": "frontier",
+    "rarity": "rare",
+    "art": "/art/cards/cold-storage.svg",
+    "alt": "A sealed server rack frosted in blue light."
+  },
+  {
+    "id": "dark-fiber",
+    "name": "Dark Fiber",
+    "type": "asset",
+    "expansion": "frontier",
+    "rarity": "rare",
+    "art": "/art/cards/dark-fiber.svg",
+    "alt": "A single unlit fiber-optic strand under violet utility lighting."
+  },
+  {
+    "id": "packet-mirror",
+    "name": "Packet Mirror",
+    "type": "event",
+    "expansion": "frontier",
+    "rarity": "rare",
+    "art": "/art/cards/packet-mirror.svg",
+    "alt": "A mirrored packet diagram splitting a data stream into two glowing paths."
+  },
+  {
+    "id": "incident-response",
+    "name": "Incident Response",
+    "type": "event",
+    "expansion": "frontier",
+    "rarity": "uncommon",
+    "art": "/art/cards/incident-response.svg",
+    "alt": "A glowing incident-response shield wrapping a damaged server stack."
+  },
+  {
+    "id": "root-access",
+    "name": "Root Access",
+    "type": "attack",
+    "expansion": "frontier",
+    "rarity": "epic",
+    "art": "/art/cards/root-access.svg",
+    "alt": "A command line glowing red as root access is granted."
+  },
+  {
+    "id": "supply-chain-gambit",
+    "name": "Supply Chain Gambit",
+    "type": "attack",
+    "expansion": "frontier",
+    "rarity": "rare",
+    "art": "/art/cards/supply-chain-gambit.svg",
+    "alt": "A chain of glowing packages, one wrapped in red malware light."
+  },
+  {
+    "id": "patch-tuesday",
+    "name": "Patch Tuesday",
+    "type": "defense",
+    "expansion": "frontier",
+    "rarity": "uncommon",
+    "art": "/art/cards/patch-tuesday.svg",
+    "alt": "A glowing software patch icon stamped onto a server rack."
+  },
+  {
+    "id": "honeypot-protocol",
+    "name": "Honeypot Protocol",
+    "type": "defense",
+    "expansion": "frontier",
+    "rarity": "rare",
+    "art": "/art/cards/honeypot-protocol.svg",
+    "alt": "A glowing decoy server surrounded by deceptive data trails."
+  },
+  {
+    "id": "redundant-uplink",
+    "name": "Redundant Uplink",
+    "type": "asset",
+    "expansion": "frontier",
+    "rarity": "uncommon",
+    "art": "/art/cards/redundant-uplink.svg",
+    "alt": "Two mirrored network uplink towers connected by a luminous ring."
+  },
+  {
+    "id": "kingmaker",
+    "name": "Kingmaker",
+    "type": "event",
+    "expansion": "frontier",
+    "rarity": "epic",
+    "art": "/art/cards/kingmaker.svg",
+    "alt": "A glowing ladder leading to an empty crown above a network map."
+  },
+  {
+    "id": "cold-open",
+    "name": "Cold Open",
+    "type": "event",
+    "expansion": "frontier",
+    "rarity": "uncommon",
+    "art": "/art/cards/cold-open.svg",
+    "alt": "A dark terminal opening with a single blinking cursor."
+  },
+  {
+    "id": "skibidi-toilet",
+    "name": "Skibidi Toilet",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "legendary",
+    "art": "/art/cards/skibidi-toilet.svg",
+    "alt": "A chrome toilet wearing sunglasses and headphones, surrounded by neon memes."
+  },
+  {
+    "id": "sigma-grindset",
+    "name": "Sigma Grindset",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/sigma-grindset.svg",
+    "alt": "A glowing silhouette doing a disciplined pose in a neon gym."
+  },
+  {
+    "id": "ohio-rizz",
+    "name": "Ohio Rizz",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/ohio-rizz.svg",
+    "alt": "A glitching Ohio-ish map covered in question marks and lightning."
+  },
+  {
+    "id": "fanum-tax",
+    "name": "Fanum Tax",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/fanum-tax.svg",
+    "alt": "A cartoon hand swooping over a glowing takeout box labeled with a tax stamp."
+  },
+  {
+    "id": "grimace-shake",
+    "name": "Grimace Shake",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/grimace-shake.svg",
+    "alt": "A purple milkshake glowing ominously on a neon diner counter."
+  },
+  {
+    "id": "tung-tung-tung-sahur",
+    "name": "Tung Tung Tung Sahur",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "epic",
+    "art": "/art/cards/tung-tung-tung-sahur.svg",
+    "alt": "A wooden meme creature with a baseball bat silhouetted in neon dawn fog."
+  },
+  {
+    "id": "tralalero-tralala",
+    "name": "Tralalero Tralala",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/tralalero-tralala.svg",
+    "alt": "A blue shark wearing bright sneakers, sprinting through a neon colosseum."
+  },
+  {
+    "id": "bombardiro-crocodilo",
+    "name": "Bombardiro Crocodilo",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/bombardiro-crocodilo.svg",
+    "alt": "A military crocodile bomber flying over a pastel pink city."
+  },
+  {
+    "id": "lirili-larila",
+    "name": "Lirilì Larilà",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/lirili-larila.svg",
+    "alt": "A surreal elephant-cactus hybrid with a tiny suitcase in a pink desert."
+  },
+  {
+    "id": "boneca-ambalabu",
+    "name": "Boneca Ambalabu",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/boneca-ambalabu.svg",
+    "alt": "A frog-headed meme creature with oversized tires on a causeway."
+  },
+  {
+    "id": "brr-brr-patapim",
+    "name": "Brr Brr Patapim",
+    "type": "defense",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/brr-brr-patapim.svg",
+    "alt": "A surreal tree-monkey creature with a long nose in a misty forest."
+  },
+  {
+    "id": "cappuccino-assassino",
+    "name": "Cappuccino Assassino",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/cappuccino-assassino.svg",
+    "alt": "A tiny shark barista assassin lurking behind a glowing espresso cup."
+  },
+  {
+    "id": "bombombini-gusini",
+    "name": "Bombombini Gusini",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/bombombini-gusini.svg",
+    "alt": "A cartoon goose in aviator goggles piloting a tiny propeller plane."
+  },
+  {
+    "id": "chimpanzini-bananini",
+    "name": "Chimpanzini Bananini",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/chimpanzini-bananini.svg",
+    "alt": "A banana-colored shark-monkey hybrid staffing a neon control desk."
+  },
+  {
+    "id": "bobrito-bandito",
+    "name": "Bobrito Bandito",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/bobrito-bandito.svg",
+    "alt": "A cartoon beaver bandit wearing a tiny hat in a neon alley."
+  },
+  {
+    "id": "frigo-camelo",
+    "name": "Frigo Camelo",
+    "type": "defense",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/frigo-camelo.svg",
+    "alt": "A camel fused with a refrigerator in a surreal desert."
+  },
+  {
+    "id": "glorbo-fruttodrillo",
+    "name": "Glorbo Fruttodrillo",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/glorbo-fruttodrillo.svg",
+    "alt": "A fruit-crocodile hybrid conducting business on a neon dock."
+  },
+  {
+    "id": "mewing-streak",
+    "name": "Mewing Streak",
+    "type": "defense",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/mewing-streak.svg",
+    "alt": "A serene outlined face surrounded by glowing jawline geometry."
+  },
+  {
+    "id": "no-cap",
+    "name": "No Cap",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/no-cap.svg",
+    "alt": "A neon cap floating above a cursor with a truth-check icon."
+  },
+  {
+    "id": "delulu",
+    "name": "Delulu",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/delulu.svg",
+    "alt": "A glowing pink brain made of hearts and static."
+  },
+  {
+    "id": "aura-farming",
+    "name": "Aura Farming",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "epic",
+    "art": "/art/cards/aura-farming.svg",
+    "alt": "A silhouetted figure emitting concentric neon aura rings above a network table."
+  },
+  {
+    "id": "negative-aura",
+    "name": "Negative Aura",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/negative-aura.svg",
+    "alt": "A violet negative aura radiating from a dejected avatar."
+  },
+  {
+    "id": "lock-in",
+    "name": "Lock In",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/lock-in.svg",
+    "alt": "A glowing lock icon closing over a browser full of tabs."
+  },
+  {
+    "id": "looksmaxxing",
+    "name": "Looksmaxxing",
+    "type": "defense",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/looksmaxxing.svg",
+    "alt": "A geometric profile being optimized by neon measurement lines."
+  },
+  {
+    "id": "what-the-sigma",
+    "name": "What the Sigma?",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/what-the-sigma.svg",
+    "alt": "A giant glowing question mark made of static over a neon table."
+  },
+  {
+    "id": "gigachad-uplink",
+    "name": "Gigachad Uplink",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "epic",
+    "art": "/art/cards/gigachad-uplink.svg",
+    "alt": "A statuesque chrome figure holding a glowing network uplink."
+  },
+  {
+    "id": "sus",
+    "name": "Sus",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/sus.svg",
+    "alt": "A suspicious crewmate silhouette with a glowing red exclamation mark."
+  },
+  {
+    "id": "among-us-impostor",
+    "name": "Among Us Impostor",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/among-us-impostor.svg",
+    "alt": "A bean-shaped astronaut silhouette with a glowing knife in a neon corridor."
+  },
+  {
+    "id": "subway-surfers-brainrot",
+    "name": "Subway Surfers Gameplay",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/subway-surfers-brainrot.svg",
+    "alt": "A tiny runner and a subway car in a vertical split-screen meme."
+  },
+  {
+    "id": "ipad-gremlin",
+    "name": "iPad Gremlin",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/ipad-gremlin.svg",
+    "alt": "A small glowing gremlin holding a tablet in a dark living room."
+  },
+  {
+    "id": "backrooms-noclip",
+    "name": "Backrooms Noclip",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/backrooms-noclip.svg",
+    "alt": "A yellow office corridor dissolving into static and void."
+  },
+  {
+    "id": "john-pork-calls",
+    "name": "John Pork Calls",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/john-pork-calls.svg",
+    "alt": "A pink pig-faced caller on a glowing smartphone in a dark room."
+  },
+  {
+    "id": "only-in-ohio",
+    "name": "Only in Ohio",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/only-in-ohio.svg",
+    "alt": "A glitched landscape of Ohio signs and cultural brainrot monuments."
+  },
+  {
+    "id": "mogging",
+    "name": "Mogging",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/mogging.svg",
+    "alt": "A stylized face projection mogging a shrinking line chart."
+  },
+  {
+    "id": "brainrot-singularity",
+    "name": "Brainrot Singularity",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "mythic",
+    "art": "/art/cards/brainrot-singularity.svg",
+    "alt": "A smiling black hole made of meme faces and neon static."
+  },
+  {
+    "id": "skibidi-rizzler",
+    "name": "Skibidi Rizzler",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "legendary",
+    "art": "/art/cards/skibidi-rizzler.svg",
+    "alt": "A polished chrome statue of a toilet wearing sunglasses, on a neon pedestal."
+  },
+  {
+    "id": "rizzler",
+    "name": "Rizzler",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/rizzler.svg",
+    "alt": "A smug neon avatar projecting Ws into a network."
+  },
+  {
+    "id": "aura-check",
+    "name": "Aura Check",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/aura-check.svg",
+    "alt": "A glowing scanner measuring an aura bar above a player avatar."
+  },
+  {
+    "id": "capybara-cafe",
+    "name": "Capybara Café",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/capybara-cafe.svg",
+    "alt": "A calm capybara barista behind a tiny neon café counter."
+  },
+  {
+    "id": "not-a-cult",
+    "name": "Not a Cult",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/not-a-cult.svg",
+    "alt": "A smiling group in matching robes around a normal folding table."
+  },
+  {
+    "id": "unlocked-memory",
+    "name": "Unlocked Memory",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "epic",
+    "art": "/art/cards/unlocked-memory.svg",
+    "alt": "A glowing door opening into a room full of floating memory cards."
+  },
+  {
+    "id": "goofy-ahh-firewall",
+    "name": "Goofy Ahh Firewall",
+    "type": "defense",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/goofy-ahh-firewall.svg",
+    "alt": "A giant cartoon shoe glowing with firewall circuitry."
+  },
+  {
+    "id": "emotional-damage",
+    "name": "Emotional Damage",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/emotional-damage.svg",
+    "alt": "A glowing heart shattering into red shards over a scoreboard."
+  },
+  {
+    "id": "npc-stream",
+    "name": "NPC Stream",
+    "type": "asset",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/npc-stream.svg",
+    "alt": "A streamer avatar staring blankly as chat floods with repeated words."
+  },
+  {
+    "id": "one-more-tab",
+    "name": "One More Tab",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "common",
+    "art": "/art/cards/one-more-tab.svg",
+    "alt": "A browser with forty tabs glowing in a dark room."
+  },
+  {
+    "id": "final-boss-fanum",
+    "name": "Final Boss Fanum",
+    "type": "attack",
+    "expansion": "brainrot",
+    "rarity": "mythic",
+    "art": "/art/cards/final-boss-fanum.svg",
+    "alt": "A towering fast-food boss figure made of neon static and credit cards."
+  },
+  {
+    "id": "gyatt-detector",
+    "name": "Gyatt Detector",
+    "type": "defense",
+    "expansion": "brainrot",
+    "rarity": "uncommon",
+    "art": "/art/cards/gyatt-detector.svg",
+    "alt": "A radar scanner displaying an exaggerated proximity alert."
+  },
+  {
+    "id": "one-two-buckle-my-shoe",
+    "name": "One, Two, Buckle My Shoe",
+    "type": "event",
+    "expansion": "brainrot",
+    "rarity": "rare",
+    "art": "/art/cards/one-two-buckle-my-shoe.svg",
+    "alt": "Glowing children's shoe buckles counting in neon numbers."
+  }
+]
