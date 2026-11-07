@@ -3958,6 +3958,8 @@ code {
   animation: target-pulse 1.7s ease-in-out infinite;
 }
 
+.player-pod.is-targetable .player-pod__top { padding-right: 56px; }
+
 .player-pod.is-targetable:hover {
   border-color: var(--amber);
   background: linear-gradient(158deg, rgba(46, 38, 15, 0.82), rgba(4, 13, 18, 0.92));
@@ -5010,6 +5012,16 @@ code {
   .game-topbar__center { justify-content: flex-end; }
   .game-topbar__mode > .mono { max-width: 130px; }
   .opponents { grid-template-columns: repeat(auto-fit, minmax(205px, 1fr)); }
+}
+
+@media (min-width: 1001px) and (min-height: 821px) {
+  .hand-bar {
+    flex: 0 1 auto;
+    max-height: 310px;
+    margin-top: auto;
+  }
+
+  .hand-scroll { min-height: 200px; }
 }
 
 @media (max-height: 820px) and (min-width: 1001px) {
